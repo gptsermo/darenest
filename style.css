@@ -1,0 +1,359 @@
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+
+    color:white;
+
+    min-height:100vh;
+
+}
+
+/* Navigation */
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 8%;
+
+    position:sticky;
+
+    top:0;
+
+    background:rgba(15,23,42,.85);
+
+    backdrop-filter:blur(12px);
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#38bdf8;
+
+}
+
+/* Hero */
+
+.hero{
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    color:#cbd5e1;
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:1.6;
+
+}
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:45px;
+
+}
+
+button{
+
+    border:none;
+
+    padding:18px 42px;
+
+    margin:12px;
+
+    font-size:20px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+#truthBtn{
+
+    background:#22c55e;
+
+    color:white;
+
+}
+
+#dareBtn{
+
+    background:#ef4444;
+
+    color:white;
+
+}
+
+button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 30px rgba(255,255,255,.15);
+
+}
+
+/* Challenge Card */
+
+.card{
+
+    width:90%;
+
+    max-width:850px;
+
+    margin:40px auto;
+
+    background:#1e293b;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.card h2{
+
+    margin-bottom:25px;
+
+}
+
+#result{
+
+    font-size:28px;
+
+    line-height:1.6;
+
+    color:#f8fafc;
+
+    min-height:90px;
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    padding:35px;
+
+    margin-top:60px;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+nav{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+nav ul{
+
+gap:18px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+button{
+
+width:90%;
+
+max-width:320px;
+
+}
+
+.card{
+
+padding:25px;
+
+}
+
+#result{
+
+font-size:22px;
+
+}
+
+}
+#challengeType{
+
+    display:inline-block;
+
+    background:#7c3aed;
+
+    color:white;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    margin-bottom:25px;
+
+}
+
+#nextBtn{
+
+    margin-top:35px;
+
+    background:#7c3aed;
+
+    color:white;
+
+}
+
+#nextBtn:hover{
+
+    background:#6d28d9;
+
+}
+
+.categories{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.category-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+.category{
+
+    background:#273449;
+
+    color:white;
+
+    padding:14px 24px;
+
+    border-radius:40px;
+
+    border:none;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.category:hover{
+
+    background:#7c3aed;
+
+}
+
+.category.active{
+
+    background:#7c3aed;
+
+}
