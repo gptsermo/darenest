@@ -31,7 +31,7 @@ fetch("data/questions.json")
 
     questions = data;
 
-    result.innerHTML = "Questions loaded: " + questions.length;
+    result.innerHTML = "Click Truth or Dare to begin your game.";
 
 })
     .catch(error => {
