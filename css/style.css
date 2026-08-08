@@ -357,3 +357,12 @@ font-size:22px;
     background:#7c3aed;
 
 }
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#8b5cf6;
+}

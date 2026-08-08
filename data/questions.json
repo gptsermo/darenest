@@ -1,0 +1,1682 @@
+[
+  {
+    "id": 1,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who in this group do you trust the most?"
+  },
+  {
+    "id": 2,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the biggest lie you've ever told a friend?"
+  },
+  {
+    "id": 3,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who was your first best friend?"
+  },
+  {
+    "id": 4,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "Have you ever secretly disliked one of your friends?"
+  },
+  {
+    "id": 5,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the most embarrassing thing you've done in front of friends?"
+  },
+  {
+    "id": 6,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who in this group would survive a zombie apocalypse?"
+  },
+  {
+    "id": 7,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever ignored a friend's message on purpose?"
+  },
+  {
+    "id": 8,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's one secret you've never told your friends?"
+  },
+  {
+    "id": 9,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which friend knows you better than anyone else?"
+  },
+  {
+    "id": 10,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever borrowed something and never returned it?"
+  },
+  {
+    "id": 11,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the funniest prank you've ever played?"
+  },
+  {
+    "id": 12,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who in this group would make the best actor?"
+  },
+  {
+    "id": 13,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever pretended to be sick to avoid meeting friends?"
+  },
+  {
+    "id": 14,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's your biggest fear that your friends don't know about?"
+  },
+  {
+    "id": 15,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you had to swap lives with one friend, who would it be?"
+  },
+  {
+    "id": 16,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the most childish thing you still do?"
+  },
+  {
+    "id": 17,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever laughed at the wrong moment?"
+  },
+  {
+    "id": 18,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the weirdest habit you have?"
+  },
+  {
+    "id": 19,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who in this group would you trust with your biggest secret?"
+  },
+  {
+    "id": 20,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's one thing you're glad your friends don't know about you?"
+  },
+  {
+    "id": 21,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "Which friend has influenced your life the most?"
+  },
+  {
+    "id": 22,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's one thing you've never apologized for but should have?"
+  },
+  {
+    "id": 23,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you could relive one day with your friends, which day would it be?"
+  },
+  {
+    "id": 24,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "Have you ever been jealous of one of your friends?"
+  },
+  {
+    "id": 25,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the kindest thing a friend has ever done for you?"
+  },
+  {
+    "id": 26,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "Which friend would you trust to keep your biggest secret forever?"
+  },
+  {
+    "id": 27,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one funny rumor you've heard about yourself?"
+  },
+  {
+    "id": 28,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "Have you ever accidentally revealed someone else's secret?"
+  },
+  {
+    "id": 29,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If your friends could change one thing about you, what do you think it would be?"
+  },
+  {
+    "id": 30,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's the biggest lesson a friendship has taught you?"
+  },
+  {
+    "id": 31,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which friend would you take on a road trip and why?"
+  },
+  {
+    "id": 32,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever laughed during a serious moment with friends?"
+  },
+  {
+    "id": 33,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the most unforgettable gift you've received from a friend?"
+  },
+  {
+    "id": 34,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which friend would make the best detective?"
+  },
+  {
+    "id": 35,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If your group had a leader, who would it be?"
+  },
+  {
+    "id": 36,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one habit of yours that annoys your friends?"
+  },
+  {
+    "id": 37,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which friend is most likely to become famous?"
+  },
+  {
+    "id": 38,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "Have you ever judged someone before knowing them?"
+  },
+  {
+    "id": 39,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's one challenge you've overcome with the help of friends?"
+  },
+  {
+    "id": 40,
+    "category": "friends",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "If today were your last day with this group, what would you say to them?"
+  },
+  {
+    "id": 41,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Do your funniest dance for 30 seconds."
+  },
+  {
+    "id": 42,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Call your best friend and say, \"I have amazing news!\" then reveal it was a dare."
+  },
+  {
+    "id": 43,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Speak in a robot voice until your next turn."
+  },
+  {
+    "id": 44,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Balance a book on your head for one minute."
+  },
+  {
+    "id": 45,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Sing the chorus of your favorite song loudly."
+  },
+  {
+    "id": 46,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell a joke until someone laughs."
+  },
+  {
+    "id": 47,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend to be a news reporter and interview another player."
+  },
+  {
+    "id": 48,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Walk around the room like a penguin for one minute."
+  },
+  {
+    "id": 49,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Do 15 jumping jacks."
+  },
+  {
+    "id": 50,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Try to lick your elbow for 20 seconds."
+  },
+  {
+    "id": 51,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Say the alphabet backwards as far as you can."
+  },
+  {
+    "id": 52,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Wear your shirt or cap backwards for the next three rounds."
+  },
+  {
+    "id": 53,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Act like your favorite movie character for one minute."
+  },
+  {
+    "id": 54,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give everyone in the group a funny nickname."
+  },
+  {
+    "id": 55,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Keep a serious face while everyone tries to make you laugh for 30 seconds."
+  },
+  {
+    "id": 56,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Talk without using the letter \"A\" for one minute."
+  },
+  {
+    "id": 57,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Let another player choose a funny pose for you to hold for 20 seconds."
+  },
+  {
+    "id": 58,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Imitate a celebrity until someone guesses who it is."
+  },
+  {
+    "id": 59,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend the floor is lava for the next 30 seconds."
+  },
+  {
+    "id": 60,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Make up a short rap about one of your friends."
+  },
+  {
+    "id": 61,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Speak only in questions until your next turn."
+  },
+  {
+    "id": 62,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Let another player choose a funny profile picture for your phone for 10 minutes."
+  },
+  {
+    "id": 63,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell a story using only five words."
+  },
+  {
+    "id": 64,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're a tour guide showing everyone around the room."
+  },
+  {
+    "id": 65,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Try to juggle three safe objects for 30 seconds."
+  },
+  {
+    "id": 66,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Walk like your favorite animal until your next turn."
+  },
+  {
+    "id": 67,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Make up a slogan for your friend group."
+  },
+  {
+    "id": 68,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Compliment every player using only one word each."
+  },
+  {
+    "id": 69,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're an alien visiting Earth for the first time."
+  },
+  {
+    "id": 70,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Balance a coin on your forehead for 20 seconds."
+  },
+  {
+    "id": 71,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Do your best slow-motion walk across the room."
+  },
+  {
+    "id": 72,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Act like you're competing in a cooking show for one minute."
+  },
+  {
+    "id": 73,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Try to whistle your favorite song."
+  },
+  {
+    "id": 74,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Invent a new handshake with the player on your left."
+  },
+  {
+    "id": 75,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Narrate everything you do for the next minute like a sports commentator."
+  },
+  {
+    "id": 76,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Freeze in place until someone says your name."
+  },
+  {
+    "id": 77,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Draw an emoji with your eyes closed and let everyone guess it."
+  },
+  {
+    "id": 78,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend your shoe is a phone and have a 30-second conversation."
+  },
+  {
+    "id": 79,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Make up a superhero name for every player in the group."
+  },
+  {
+    "id": 80,
+    "category": "friends",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "End your turn with your biggest, funniest victory pose."
+  },
+  {
+    "id": 81,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What was your first impression of your partner?"
+  },
+  {
+    "id": 82,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who said \"I love you\" first?"
+  },
+  {
+    "id": 83,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your favorite memory together?"
+  },
+  {
+    "id": 84,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one habit of your partner that secretly makes you smile?"
+  },
+  {
+    "id": 85,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the sweetest surprise you've ever received?"
+  },
+  {
+    "id": 86,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What's one thing you've always wanted to tell your partner but haven't?"
+  },
+  {
+    "id": 87,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you could relive one date together, which one would it be?"
+  },
+  {
+    "id": 88,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your partner's cutest habit?"
+  },
+  {
+    "id": 89,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever forgotten an important date or anniversary?"
+  },
+  {
+    "id": 90,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What quality do you admire most in your partner?"
+  },
+  {
+    "id": 91,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you could travel anywhere together, where would you go?"
+  },
+  {
+    "id": 92,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one thing your partner does better than you?"
+  },
+  {
+    "id": 93,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the funniest argument you've ever had?"
+  },
+  {
+    "id": 94,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What song reminds you of your relationship?"
+  },
+  {
+    "id": 95,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If your partner won a million dollars, what do you think they'd buy first?"
+  },
+  {
+    "id": 96,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one small thing your partner does that makes your day better?"
+  },
+  {
+    "id": 97,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your happiest moment together so far?"
+  },
+  {
+    "id": 98,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you had to describe your relationship in one word, what would it be?"
+  },
+  {
+    "id": 99,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "medium",
+    "question": "What is one dream you want to achieve together?"
+  },
+  {
+    "id": 100,
+    "category": "couples",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one thing you appreciate about your partner that you don't say often?"
+  },
+  {
+    "id": 101,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Hold hands for the next 2 minutes."
+  },
+  {
+    "id": 102,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give your partner three genuine compliments."
+  },
+  {
+    "id": 103,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Recreate your first photo together."
+  },
+  {
+    "id": 104,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Dance together for one minute without music."
+  },
+  {
+    "id": 105,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Look into each other's eyes for 30 seconds without laughing."
+  },
+  {
+    "id": 106,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Feed your partner a small snack without using your hands."
+  },
+  {
+    "id": 107,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell your partner your favorite memory of them."
+  },
+  {
+    "id": 108,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Let your partner choose your phone wallpaper for one hour."
+  },
+  {
+    "id": 109,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Act out how you first met."
+  },
+  {
+    "id": 110,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Sing a romantic song to your partner."
+  },
+  {
+    "id": 111,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give your partner a high-five followed by a hug."
+  },
+  {
+    "id": 112,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Take a funny selfie together."
+  },
+  {
+    "id": 113,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Let your partner ask you any one harmless question—you must answer honestly."
+  },
+  {
+    "id": 114,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Describe your partner using only three positive words."
+  },
+  {
+    "id": 115,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're meeting each other for the first time and introduce yourselves."
+  },
+  {
+    "id": 116,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell your partner one thing you're grateful for today."
+  },
+  {
+    "id": 117,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Try to make your partner laugh without touching them."
+  },
+  {
+    "id": 118,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Plan your dream date together in one minute."
+  },
+  {
+    "id": 119,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Exchange one fun nickname and use it until the end of the game."
+  },
+  {
+    "id": 120,
+    "category": "couples",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Promise to do one kind thing for your partner today."
+  },
+  {
+    "id": 121,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who in your family makes you laugh the most?"
+  },
+  {
+    "id": 122,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who is the best cook in your family?"
+  },
+  {
+    "id": 123,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What is your funniest childhood memory?"
+  },
+  {
+    "id": 124,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever blamed a sibling for something you did?"
+  },
+  {
+    "id": 125,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which family member gives the best advice?"
+  },
+  {
+    "id": 126,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one family tradition you love?"
+  },
+  {
+    "id": 127,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever hidden your report card or exam results?"
+  },
+  {
+    "id": 128,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who is the funniest person in your family?"
+  },
+  {
+    "id": 129,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your favorite family vacation memory?"
+  },
+  {
+    "id": 130,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever secretly eaten someone else's food at home?"
+  },
+  {
+    "id": 131,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which family member do you call first when you need help?"
+  },
+  {
+    "id": 132,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one funny nickname you have in your family?"
+  },
+  {
+    "id": 133,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever broken something at home and blamed someone else?"
+  },
+  {
+    "id": 134,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your favorite homemade meal?"
+  },
+  {
+    "id": 135,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which family member do you look up to the most?"
+  },
+  {
+    "id": 136,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the funniest thing your parents have ever said?"
+  },
+  {
+    "id": 137,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If your family had a reality TV show, what would it be called?"
+  },
+  {
+    "id": 138,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one habit you inherited from your parents?"
+  },
+  {
+    "id": 139,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who in your family would survive longest on a deserted island?"
+  },
+  {
+    "id": 140,
+    "category": "family",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one thing you appreciate most about your family?"
+  },
+  {
+    "id": 141,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give every family member a genuine compliment."
+  },
+  {
+    "id": 142,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Act like your mom or dad until someone guesses who you are."
+  },
+  {
+    "id": 143,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Sing your favorite childhood rhyme."
+  },
+  {
+    "id": 144,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell a funny family story."
+  },
+  {
+    "id": 145,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Help clean up for the next 5 minutes."
+  },
+  {
+    "id": 146,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Call a grandparent or relative and say hello."
+  },
+  {
+    "id": 147,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Do your funniest dance for 30 seconds."
+  },
+  {
+    "id": 148,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Speak in a cartoon character's voice for one minute."
+  },
+  {
+    "id": 149,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Hug every family member in the room."
+  },
+  {
+    "id": 150,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Draw a funny picture of your family in one minute."
+  },
+  {
+    "id": 151,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Balance a spoon on your nose for 20 seconds."
+  },
+  {
+    "id": 152,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Say three things you're thankful for about your family."
+  },
+  {
+    "id": 153,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend to be the oldest person in the family for one minute."
+  },
+  {
+    "id": 154,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Walk backward until your next turn."
+  },
+  {
+    "id": 155,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell everyone your funniest childhood nickname."
+  },
+  {
+    "id": 156,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Make your best animal sound and let everyone guess the animal."
+  },
+  {
+    "id": 157,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Let another player choose a funny pose for you to hold for 20 seconds."
+  },
+  {
+    "id": 158,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Say the alphabet without using the letter \"E\" (stop when you can't continue)."
+  },
+  {
+    "id": 159,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Share one happy family memory."
+  },
+  {
+    "id": 160,
+    "category": "family",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give someone in your family a high-five and tell them why they're awesome."
+  },
+  {
+    "id": 161,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever pretended to be busy when your boss walked by?"
+  },
+  {
+    "id": 162,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who is the funniest person in your office?"
+  },
+  {
+    "id": 163,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever arrived late and blamed the traffic?"
+  },
+  {
+    "id": 164,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your favorite part of your job?"
+  },
+  {
+    "id": 165,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you could swap jobs with one colleague for a day, who would it be?"
+  },
+  {
+    "id": 166,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever forgotten an important meeting?"
+  },
+  {
+    "id": 167,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who makes the best tea or coffee in the office?"
+  },
+  {
+    "id": 168,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the funniest thing that has happened during a meeting?"
+  },
+  {
+    "id": 169,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever sent a message to the wrong person?"
+  },
+  {
+    "id": 170,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one office habit you wish people would stop doing?"
+  },
+  {
+    "id": 171,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If your office had a talent show, what would you perform?"
+  },
+  {
+    "id": 172,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which colleague would survive best on a deserted island?"
+  },
+  {
+    "id": 173,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever laughed during a serious meeting?"
+  },
+  {
+    "id": 174,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your dream office perk?"
+  },
+  {
+    "id": 175,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you became the CEO for one day, what's the first change you'd make?"
+  },
+  {
+    "id": 176,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the best compliment you've received at work?"
+  },
+  {
+    "id": 177,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one skill you'd like to improve this year?"
+  },
+  {
+    "id": 178,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Which colleague would make the best stand-up comedian?"
+  },
+  {
+    "id": 179,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If your office became a movie, what would its title be?"
+  },
+  {
+    "id": 180,
+    "category": "office",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one thing you enjoy most about working with your team?"
+  },
+  {
+    "id": 181,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give a genuine compliment to a colleague."
+  },
+  {
+    "id": 182,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Organize your desk in under one minute."
+  },
+  {
+    "id": 183,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Speak in a motivational speaker's voice for your next sentence."
+  },
+  {
+    "id": 184,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Stand up and stretch for 30 seconds."
+  },
+  {
+    "id": 185,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're presenting the Employee of the Year award."
+  },
+  {
+    "id": 186,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Walk to the water dispenser in slow motion."
+  },
+  {
+    "id": 187,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell a clean office joke."
+  },
+  {
+    "id": 188,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Introduce yourself as if it's your first day at work."
+  },
+  {
+    "id": 189,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Make a paper airplane and see how far it flies, if allowed."
+  },
+  {
+    "id": 190,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Say three positive things about your workplace."
+  },
+  {
+    "id": 191,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're answering an imaginary customer call."
+  },
+  {
+    "id": 192,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Smile continuously for the next minute."
+  },
+  {
+    "id": 193,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Act like the office printer when it jams."
+  },
+  {
+    "id": 194,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Share one productivity tip with the group."
+  },
+  {
+    "id": 195,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Balance a pen on one finger for 15 seconds."
+  },
+  {
+    "id": 196,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Describe your job using only five words."
+  },
+  {
+    "id": 197,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Let another player choose a word you must use three times in your next conversation."
+  },
+  {
+    "id": 198,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Imitate the office coffee machine or photocopier."
+  },
+  {
+    "id": 199,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Thank someone at work for something they've helped you with."
+  },
+  {
+    "id": 200,
+    "category": "office",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Create a funny slogan for your office team."
+  },
+  {
+    "id": 201,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who at this party would survive the longest on a deserted island?"
+  },
+  {
+    "id": 202,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the craziest thing you've ever done at a party?"
+  },
+  {
+    "id": 203,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever accidentally embarrassed yourself in public?"
+  },
+  {
+    "id": 204,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's your most unforgettable party memory?"
+  },
+  {
+    "id": 205,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who here do you think has the best sense of humor?"
+  },
+  {
+    "id": 206,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever danced when no one else was dancing?"
+  },
+  {
+    "id": 207,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the funniest excuse you've ever used to leave a party?"
+  },
+  {
+    "id": 208,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you could invite any celebrity to this party, who would it be?"
+  },
+  {
+    "id": 209,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever laughed so hard that you cried?"
+  },
+  {
+    "id": 210,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the weirdest food you've ever eaten?"
+  },
+  {
+    "id": 211,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Who here do you think would win a comedy competition?"
+  },
+  {
+    "id": 212,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the funniest nickname you've ever had?"
+  },
+  {
+    "id": 213,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever sung karaoke in front of a crowd?"
+  },
+  {
+    "id": 214,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you had one superpower for tonight, what would it be?"
+  },
+  {
+    "id": 215,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one hidden talent most people at this party don't know about?"
+  },
+  {
+    "id": 216,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If you could swap lives with someone here for one day, who would it be?"
+  },
+  {
+    "id": 217,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "Have you ever accidentally called someone by the wrong name?"
+  },
+  {
+    "id": 218,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's the most adventurous thing you've ever done?"
+  },
+  {
+    "id": 219,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "What's one thing on your bucket list you hope to do someday?"
+  },
+  {
+    "id": 220,
+    "category": "party",
+    "type": "truth",
+    "difficulty": "easy",
+    "question": "If tonight became a movie, what would its title be?"
+  },
+  {
+    "id": 221,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Dance continuously for one minute."
+  },
+  {
+    "id": 222,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Sing the chorus of your favorite song as dramatically as possible."
+  },
+  {
+    "id": 223,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're the DJ and announce the next imaginary song."
+  },
+  {
+    "id": 224,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Tell your funniest joke."
+  },
+  {
+    "id": 225,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Do your best robot dance for 30 seconds."
+  },
+  {
+    "id": 226,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Balance a spoon on your nose for 20 seconds."
+  },
+  {
+    "id": 227,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Let another player choose your pose for a group photo."
+  },
+  {
+    "id": 228,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Speak only in rhymes until your next turn."
+  },
+  {
+    "id": 229,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend you're walking on the moon for one minute."
+  },
+  {
+    "id": 230,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Make three different animal sounds and let everyone guess them."
+  },
+  {
+    "id": 231,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Wear your jacket or cap backwards until your next turn."
+  },
+  {
+    "id": 232,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Try to keep a straight face while everyone tries to make you laugh."
+  },
+  {
+    "id": 233,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Introduce yourself as if you're a superhero."
+  },
+  {
+    "id": 234,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Act like you're accepting an Oscar award."
+  },
+  {
+    "id": 235,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Do 10 squats while counting loudly."
+  },
+  {
+    "id": 236,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Create a funny handshake with the player next to you."
+  },
+  {
+    "id": 237,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Imitate a famous movie character until someone guesses who it is."
+  },
+  {
+    "id": 238,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Pretend to be a sports commentator describing what's happening in the room."
+  },
+  {
+    "id": 239,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "medium",
+    "question": "Tell a two-line story where every sentence must start with the next letter of the alphabet."
+  },
+  {
+    "id": 240,
+    "category": "party",
+    "type": "dare",
+    "difficulty": "easy",
+    "question": "Give everyone in the group a high-five and end with your biggest smile."
+  }
+]

@@ -3,6 +3,8 @@ let questions = [];
 let currentCategory = "friends";
 let currentMode = "truth";
 
+let usedQuestionIds = [];
+
 const result = document.getElementById("result");
 const challengeType = document.getElementById("challengeType");
 const truthBtn = document.getElementById("truthBtn");
@@ -15,25 +17,30 @@ const categories = document.querySelectorAll(".category");
    LOAD QUESTIONS
 ========================= */
 
-fetch("questions.json")
+fetch("data/questions.json")
     .then(response => {
+
         if (!response.ok) {
             throw new Error("Could not load questions.json");
         }
 
         return response.json();
+
     })
     .then(data => {
-        questions = data;
 
-        result.innerHTML = "Choose Truth or Dare to begin.";
-    })
+    questions = data;
+
+    result.innerHTML = "Questions loaded: " + questions.length;
+
+})
     .catch(error => {
-        console.error(error);
 
-        result.innerHTML =
-            "Sorry, questions could not be loaded.";
-    });
+    console.error(error);
+
+    result.innerHTML = "Sorry, questions could not be loaded.";
+
+});
 
 
 /* =========================
@@ -42,10 +49,22 @@ fetch("questions.json")
 
 function getRandomQuestion(type) {
 
-    const filteredQuestions = questions.filter(question =>
+    let filteredQuestions = questions.filter(question =>
         question.category === currentCategory &&
-        question.type === type
+        question.type === type &&
+        !usedQuestionIds.includes(question.id)
     );
+
+    // If all questions have been used, start again
+    if (filteredQuestions.length === 0) {
+
+        usedQuestionIds = [];
+
+        filteredQuestions = questions.filter(question =>
+            question.category === currentCategory &&
+            question.type === type
+        );
+    }
 
     if (filteredQuestions.length === 0) {
 
@@ -58,8 +77,13 @@ function getRandomQuestion(type) {
     const randomIndex =
         Math.floor(Math.random() * filteredQuestions.length);
 
+    const selectedQuestion =
+        filteredQuestions[randomIndex];
+
+    usedQuestionIds.push(selectedQuestion.id);
+
     result.innerHTML =
-        filteredQuestions[randomIndex].question;
+        selectedQuestion.question;
 }
 
 
@@ -74,6 +98,7 @@ function randomTruth() {
     challengeType.innerHTML = "🎯 TRUTH";
 
     getRandomQuestion("truth");
+
 }
 
 
@@ -88,6 +113,7 @@ function randomDare() {
     challengeType.innerHTML = "🔥 DARE";
 
     getRandomQuestion("dare");
+
 }
 
 
@@ -102,9 +128,13 @@ dareBtn.onclick = randomDare;
 nextBtn.onclick = function () {
 
     if (currentMode === "truth") {
+
         randomTruth();
+
     } else {
+
         randomDare();
+
     }
 
 };
@@ -119,7 +149,9 @@ categories.forEach(button => {
     button.onclick = function () {
 
         categories.forEach(category => {
+
             category.classList.remove("active");
+
         });
 
         this.classList.add("active");
@@ -127,7 +159,8 @@ categories.forEach(button => {
         currentCategory =
             this.dataset.category;
 
-        challengeType.innerHTML = "WELCOME";
+        challengeType.innerHTML =
+            "WELCOME";
 
         result.innerHTML =
             "Category changed to <b>" +
