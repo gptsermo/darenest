@@ -10,6 +10,7 @@ const challengeType = document.getElementById("challengeType");
 const truthBtn = document.getElementById("truthBtn");
 const dareBtn = document.getElementById("dareBtn");
 const nextBtn = document.getElementById("nextBtn");
+const shareBtn = document.getElementById("shareBtn");
 const categories = document.querySelectorAll(".category");
 
 
@@ -139,6 +140,37 @@ nextBtn.onclick = function () {
 
 };
 
+/* =========================
+   share button
+========================= */
+shareBtn.onclick = function () {
+
+    const question = result.innerText;
+
+    if (!question || question === "Click Truth or Dare to begin your game.") {
+        alert("Please choose a Truth or Dare question first.");
+        return;
+    }
+
+    if (navigator.share) {
+
+        navigator.share({
+    title: "DareNest - Truth or Dare",
+    text:
+        "🎯 DareNest – Truth or Dare\n\n" +
+        question +
+        "\n\nPlay more: darenest.com"
+        });
+
+    } else {
+
+        navigator.clipboard.writeText(question);
+
+        alert("Question copied! You can now paste it anywhere.");
+
+    }
+
+};
 
 /* =========================
    CATEGORIES
