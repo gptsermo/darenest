@@ -265,7 +265,7 @@ function searchQuestions() {
 
     matches.forEach(question => {
 
-    const item = document.createElement("div");
+    const item = document.createElement("button");
 
     item.className = "search-result";
 
@@ -289,9 +289,14 @@ function searchQuestions() {
 
         updateFavoriteButton();
 
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
+        document.querySelector(".card").scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+        });
+    };
+
+    searchResults.appendChild(item);
+
         });
     };
 
