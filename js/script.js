@@ -97,10 +97,16 @@ function getRandomQuestion(type) {
     currentQuestion = selectedQuestion;
 
     result.innerHTML =
-        selectedQuestion.question;
+    question.question;
 
-    updateFavoriteButton();
-}
+updateFavoriteButton();
+
+document.getElementById("result").scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+});
+
+};
 
 
 /* =========================
@@ -265,44 +271,42 @@ function searchQuestions() {
 
     matches.forEach(question => {
 
-    const item = document.createElement("button");
+        const item = document.createElement("button");
 
-    item.className = "search-result";
+        item.className = "search-result";
 
-    item.innerHTML =
-        "<strong>" +
-        question.type.toUpperCase() +
-        "</strong>: " +
-        question.question;
+        item.innerHTML =
+            "<strong>" +
+            question.type.toUpperCase() +
+            "</strong>: " +
+            question.question;
 
-    item.onclick = function () {
+        item.onclick = function () {
 
-        currentQuestion = question;
-        currentMode = question.type;
+    currentQuestion = question;
+    currentMode = question.type;
 
-        challengeType.innerHTML =
-            question.type === "truth"
-                ? "🎯 TRUTH"
-                : "🔥 DARE";
+    challengeType.innerHTML =
+        question.type === "truth"
+            ? "🎯 TRUTH"
+            : "🔥 DARE";
 
-        result.innerHTML = question.question;
+    result.innerHTML = question.question;
 
-        updateFavoriteButton();
+    updateFavoriteButton();
 
-        document.querySelector(".card").scrollIntoView({
-        behavior: "smooth",
-        block: "center"
+    setTimeout(() => {
+        result.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
         });
-    };
+    }, 200);
 
-    searchResults.appendChild(item);
+};
 
-        });
-    };
+        searchResults.appendChild(item);
 
-    searchResults.appendChild(item);
-
-});
+    });
 }
 
 searchBtn.onclick = searchQuestions;
