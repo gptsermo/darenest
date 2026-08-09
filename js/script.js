@@ -19,6 +19,9 @@ const nextBtn = document.getElementById("nextBtn");
 const shareBtn = document.getElementById("shareBtn");
 const favoriteBtn = document.getElementById("favoriteBtn");
 const favoritesList = document.getElementById("favoritesList");
+const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
+const searchResults = document.getElementById("searchResults");
 const categories = document.querySelectorAll(".category");
 
 
@@ -234,6 +237,77 @@ function displayFavorites() {
     });
 }
 
+function searchQuestions() {
+
+    const searchTerm = searchInput.value.trim().toLowerCase();
+
+    if (searchTerm === "") {
+        searchResults.innerHTML = "";
+        return;
+    }
+
+    const matches = questions.filter(question =>
+        question.question.toLowerCase().includes(searchTerm)
+    );
+
+    if (matches.length === 0) {
+
+        searchResults.innerHTML =
+            "<p>No questions found.</p>";
+
+        return;
+    }
+
+    searchResults.innerHTML =
+        "<h3>🔎 Search Results (" +
+        matches.length +
+        ")</h3>";
+
+    matches.forEach(question => {
+
+    const item = document.createElement("div");
+
+    item.className = "search-result";
+
+    item.innerHTML =
+        "<strong>" +
+        question.type.toUpperCase() +
+        "</strong>: " +
+        question.question;
+
+    item.onclick = function () {
+
+        currentQuestion = question;
+        currentMode = question.type;
+
+        challengeType.innerHTML =
+            question.type === "truth"
+                ? "🎯 TRUTH"
+                : "🔥 DARE";
+
+        result.innerHTML = question.question;
+
+        updateFavoriteButton();
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
+    searchResults.appendChild(item);
+
+});
+}
+
+searchBtn.onclick = searchQuestions;
+searchInput.addEventListener("keypress", function(event) {
+
+    if (event.key === "Enter") {
+        searchQuestions();
+    }
+
+});
 function removeFavorite(index) {
 
     favorites.splice(index, 1);
