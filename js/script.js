@@ -5,12 +5,20 @@ let currentMode = "truth";
 
 let usedQuestionIds = [];
 
+let currentQuestion = null;
+
+let favorites = JSON.parse(
+    localStorage.getItem("darenestFavorites")
+) || [];
+
 const result = document.getElementById("result");
 const challengeType = document.getElementById("challengeType");
 const truthBtn = document.getElementById("truthBtn");
 const dareBtn = document.getElementById("dareBtn");
 const nextBtn = document.getElementById("nextBtn");
 const shareBtn = document.getElementById("shareBtn");
+const favoriteBtn = document.getElementById("favoriteBtn");
+const favoritesList = document.getElementById("favoritesList");
 const categories = document.querySelectorAll(".category");
 
 
@@ -83,8 +91,12 @@ function getRandomQuestion(type) {
 
     usedQuestionIds.push(selectedQuestion.id);
 
+    currentQuestion = selectedQuestion;
+
     result.innerHTML =
         selectedQuestion.question;
+
+    updateFavoriteButton();
 }
 
 
@@ -170,7 +182,101 @@ shareBtn.onclick = function () {
 
     }
 
+}; 
+/* existing function ends here */
+
+function updateFavoriteButton() {
+
+    if (!currentQuestion) {
+        favoriteBtn.innerHTML = "❤️ Add to Favorites";
+        return;
+    }
+
+    const isFavorite = favorites.some(
+        question => question.id === currentQuestion.id
+    );
+
+    if (isFavorite) {
+        favoriteBtn.innerHTML = "💔 Remove from Favorites";
+    } else {
+        favoriteBtn.innerHTML = "❤️ Add to Favorites";
+    }
+}
+function displayFavorites() {
+
+    if (favorites.length === 0) {
+
+        favoritesList.innerHTML =
+            "No favorite questions yet.";
+
+        return;
+    }
+
+    favoritesList.innerHTML = "";
+
+    favorites.forEach((question, index) => {
+
+        const item = document.createElement("div");
+
+        item.className = "favorite-item";
+
+        item.innerHTML =
+            "<strong>" +
+            question.type.toUpperCase() +
+            "</strong>: " +
+            question.question +
+            " <button onclick=\"removeFavorite(" +
+            index +
+            ")\">❌</button>";
+
+        favoritesList.appendChild(item);
+
+    });
+}
+
+function removeFavorite(index) {
+
+    favorites.splice(index, 1);
+
+    localStorage.setItem(
+        "darenestFavorites",
+        JSON.stringify(favorites)
+    );
+
+    displayFavorites();
+    updateFavoriteButton();
+}
+
+favoriteBtn.onclick = function () {
+
+    if (!currentQuestion) {
+        alert("Please choose a Truth or Dare question first.");
+        return;
+    }
+
+    const existingIndex = favorites.findIndex(
+        question => question.id === currentQuestion.id
+    );
+
+    if (existingIndex === -1) {
+
+        favorites.push(currentQuestion);
+
+    } else {
+
+        favorites.splice(existingIndex, 1);
+
+    }
+
+    localStorage.setItem(
+        "darenestFavorites",
+        JSON.stringify(favorites)
+    );
+
+    updateFavoriteButton();
+    displayFavorites();
 };
+/* new function ends here */
 
 /* =========================
    CATEGORIES
@@ -203,3 +309,4 @@ categories.forEach(button => {
     };
 
 });
+displayFavorites();
