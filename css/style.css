@@ -458,3 +458,52 @@ footer a:hover{
 .search-result:hover {
     transform: translateY(-2px);
 }
+
+/* ==============================
+   MOBILE UI IMPROVEMENTS
+   ============================== */
+
+@media (max-width: 600px) {
+
+    .buttons {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .buttons button {
+        flex: 1;
+        min-height: 50px;
+        font-size: 16px;
+    }
+
+    .category-grid {
+    gap: 8px;
+}
+
+.category-grid .category {
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+.search-box input {
+    flex: 1 1 auto;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.search-box button {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 14px 18px;
+}
+
+}

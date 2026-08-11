@@ -97,7 +97,7 @@ function getRandomQuestion(type) {
     currentQuestion = selectedQuestion;
 
     result.innerHTML =
-    question.question;
+    selectedQuestion.question;
 
 updateFavoriteButton();
 
@@ -370,18 +370,17 @@ categories.forEach(button => {
     button.onclick = function () {
 
         categories.forEach(category => {
-
             category.classList.remove("active");
-
         });
 
         this.classList.add("active");
 
-        currentCategory =
-            this.dataset.category;
+        currentCategory = this.dataset.category;
 
-        challengeType.innerHTML =
-            "WELCOME";
+        usedQuestionIds = [];
+        currentQuestion = null;
+
+        challengeType.innerHTML = "WELCOME";
 
         result.innerHTML =
             "Category changed to <b>" +
@@ -389,6 +388,7 @@ categories.forEach(button => {
             currentCategory.slice(1) +
             "</b>. Click Truth or Dare.";
 
+        updateFavoriteButton();
     };
 
 });
