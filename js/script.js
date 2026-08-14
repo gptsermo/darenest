@@ -2,6 +2,7 @@ let questions = [];
 
 let currentCategory = "friends";
 let currentMode = "truth";
+let currentAgeGroup = "all";
 
 let usedQuestionIds = [];
 
@@ -22,6 +23,7 @@ const favoritesList = document.getElementById("favoritesList");
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
 const searchResults = document.getElementById("searchResults");
+const ageOptions = document.querySelectorAll(".age-option");
 const categories = document.querySelectorAll(".category");
 
 
@@ -64,6 +66,8 @@ function getRandomQuestion(type) {
     let filteredQuestions = questions.filter(question =>
         question.category === currentCategory &&
         question.type === type &&
+        (currentAgeGroup === "all" ||
+         question.ageGroup.includes(currentAgeGroup)) &&
         !usedQuestionIds.includes(question.id)
     );
 
@@ -74,14 +78,16 @@ function getRandomQuestion(type) {
 
         filteredQuestions = questions.filter(question =>
             question.category === currentCategory &&
-            question.type === type
+            question.type === type &&
+            (currentAgeGroup === "all" ||
+             question.ageGroup.includes(currentAgeGroup))
         );
     }
 
     if (filteredQuestions.length === 0) {
 
         result.innerHTML =
-            "No questions available for this category yet.";
+            "No questions available for this category and age group yet.";
 
         return;
     }
@@ -97,16 +103,15 @@ function getRandomQuestion(type) {
     currentQuestion = selectedQuestion;
 
     result.innerHTML =
-    selectedQuestion.question;
+        selectedQuestion.question;
 
-updateFavoriteButton();
+    updateFavoriteButton();
 
-document.getElementById("result").scrollIntoView({
-    behavior: "smooth",
-    block: "center"
-});
-
-};
+    document.getElementById("result").scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+}
 
 
 /* =========================
@@ -253,7 +258,9 @@ function searchQuestions() {
     }
 
     const matches = questions.filter(question =>
-        question.question.toLowerCase().includes(searchTerm)
+    question.question.toLowerCase().includes(searchTerm) &&
+    question.category === currentCategory &&
+    question.ageGroup.includes(currentAgeGroup)
     );
 
     if (matches.length === 0) {
@@ -392,4 +399,31 @@ categories.forEach(button => {
     };
 
 });
+ageOptions.forEach(button => {
+
+    button.onclick = function () {
+
+        ageOptions.forEach(option => {
+            option.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+        currentAgeGroup = this.dataset.age;
+
+        usedQuestionIds = [];
+        currentQuestion = null;
+
+        challengeType.innerHTML = "WELCOME";
+
+        result.innerHTML =
+            "Age group changed to <b>" +
+            this.innerText +
+            "</b>. Click Truth or Dare.";
+
+        updateFavoriteButton();
+    };
+
+});
+
 displayFavorites();

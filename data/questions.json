@@ -4,6 +4,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who in this group do you trust the most?"
   },
   {
@@ -11,6 +17,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the biggest lie you've ever told a friend?"
   },
   {
@@ -18,6 +30,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who was your first best friend?"
   },
   {
@@ -25,6 +43,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever secretly disliked one of your friends?"
   },
   {
@@ -32,6 +56,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the most embarrassing thing you've done in front of friends?"
   },
   {
@@ -39,6 +69,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who in this group would survive a zombie apocalypse?"
   },
   {
@@ -46,6 +82,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever ignored a friend's message on purpose?"
   },
   {
@@ -53,6 +95,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one secret you've never told your friends?"
   },
   {
@@ -60,6 +108,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which friend knows you better than anyone else?"
   },
   {
@@ -67,6 +121,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever borrowed something and never returned it?"
   },
   {
@@ -74,6 +134,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the funniest prank you've ever played?"
   },
   {
@@ -81,6 +147,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who in this group would make the best actor?"
   },
   {
@@ -88,6 +160,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever pretended to be sick to avoid meeting friends?"
   },
   {
@@ -95,6 +173,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's your biggest fear that your friends don't know about?"
   },
   {
@@ -102,6 +186,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If you had to swap lives with one friend, who would it be?"
   },
   {
@@ -109,6 +199,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the most childish thing you still do?"
   },
   {
@@ -116,6 +212,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever laughed at the wrong moment?"
   },
   {
@@ -123,6 +225,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the weirdest habit you have?"
   },
   {
@@ -130,6 +238,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who in this group would you trust with your biggest secret?"
   },
   {
@@ -137,6 +251,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing you're glad your friends don't know about you?"
   },
   {
@@ -144,6 +264,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which friend has influenced your life the most?"
   },
   {
@@ -151,6 +277,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing you've never apologized for but should have?"
   },
   {
@@ -158,6 +290,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If you could relive one day with your friends, which day would it be?"
   },
   {
@@ -165,6 +303,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever been jealous of one of your friends?"
   },
   {
@@ -172,6 +316,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the kindest thing a friend has ever done for you?"
   },
   {
@@ -179,6 +329,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which friend would you trust to keep your biggest secret forever?"
   },
   {
@@ -186,6 +342,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one funny rumor you've heard about yourself?"
   },
   {
@@ -193,6 +355,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever accidentally revealed someone else's secret?"
   },
   {
@@ -200,6 +368,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If your friends could change one thing about you, what do you think it would be?"
   },
   {
@@ -207,6 +381,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the biggest lesson a friendship has taught you?"
   },
   {
@@ -214,6 +394,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which friend would you take on a road trip and why?"
   },
   {
@@ -221,6 +407,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever laughed during a serious moment with friends?"
   },
   {
@@ -228,6 +420,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the most unforgettable gift you've received from a friend?"
   },
   {
@@ -235,6 +433,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which friend would make the best detective?"
   },
   {
@@ -242,6 +446,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If your group had a leader, who would it be?"
   },
   {
@@ -249,6 +459,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one habit of yours that annoys your friends?"
   },
   {
@@ -256,6 +472,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which friend is most likely to become famous?"
   },
   {
@@ -263,6 +485,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever judged someone before knowing them?"
   },
   {
@@ -270,6 +498,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one challenge you've overcome with the help of friends?"
   },
   {
@@ -277,6 +511,12 @@
     "category": "friends",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If today were your last day with this group, what would you say to them?"
   },
   {
@@ -284,13 +524,25 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
-    "question": "Do your funniest dance for 30 seconds."
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
+    "question": "Challenge another player to a 15-second dance-off and copy each other's moves."
   },
   {
     "id": 42,
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Call your best friend and say, \"I have amazing news!\" then reveal it was a dare."
   },
   {
@@ -298,6 +550,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Speak in a robot voice until your next turn."
   },
   {
@@ -305,6 +563,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Balance a book on your head for one minute."
   },
   {
@@ -312,6 +576,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Sing the chorus of your favorite song loudly."
   },
   {
@@ -319,6 +589,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Tell a joke until someone laughs."
   },
   {
@@ -326,6 +602,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend to be a news reporter and interview another player."
   },
   {
@@ -333,6 +615,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Walk around the room like a penguin for one minute."
   },
   {
@@ -340,6 +628,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Do 15 jumping jacks."
   },
   {
@@ -347,6 +641,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Try to lick your elbow for 20 seconds."
   },
   {
@@ -354,6 +654,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Say the alphabet backwards as far as you can."
   },
   {
@@ -361,6 +667,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Wear your shirt or cap backwards for the next three rounds."
   },
   {
@@ -368,6 +680,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Act like your favorite movie character for one minute."
   },
   {
@@ -375,6 +693,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Give everyone in the group a funny nickname."
   },
   {
@@ -382,6 +706,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Keep a serious face while everyone tries to make you laugh for 30 seconds."
   },
   {
@@ -389,6 +719,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Talk without using the letter \"A\" for one minute."
   },
   {
@@ -396,13 +732,25 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
-    "question": "Let another player choose a funny pose for you to hold for 20 seconds."
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
+    "question": "Ask another player to give you a funny nickname and use it for the next 3 rounds."
   },
   {
     "id": 58,
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Imitate a celebrity until someone guesses who it is."
   },
   {
@@ -410,6 +758,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend the floor is lava for the next 30 seconds."
   },
   {
@@ -417,6 +771,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Make up a short rap about one of your friends."
   },
   {
@@ -424,6 +784,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Speak only in questions until your next turn."
   },
   {
@@ -431,6 +797,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Let another player choose a funny profile picture for your phone for 10 minutes."
   },
   {
@@ -438,6 +810,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Tell a story using only five words."
   },
   {
@@ -445,6 +823,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend you're a tour guide showing everyone around the room."
   },
   {
@@ -452,6 +836,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Try to juggle three safe objects for 30 seconds."
   },
   {
@@ -459,6 +849,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Walk like your favorite animal until your next turn."
   },
   {
@@ -466,6 +862,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Make up a slogan for your friend group."
   },
   {
@@ -473,6 +875,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Compliment every player using only one word each."
   },
   {
@@ -480,6 +888,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend you're an alien visiting Earth for the first time."
   },
   {
@@ -487,6 +901,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Balance a coin on your forehead for 20 seconds."
   },
   {
@@ -494,6 +914,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Do your best slow-motion walk across the room."
   },
   {
@@ -501,6 +927,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Act like you're competing in a cooking show for one minute."
   },
   {
@@ -508,6 +940,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Try to whistle your favorite song."
   },
   {
@@ -515,6 +953,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Invent a new handshake with the player on your left."
   },
   {
@@ -522,6 +966,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Narrate everything you do for the next minute like a sports commentator."
   },
   {
@@ -529,6 +979,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Freeze in place until someone says your name."
   },
   {
@@ -536,6 +992,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Draw an emoji with your eyes closed and let everyone guess it."
   },
   {
@@ -543,6 +1005,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend your shoe is a phone and have a 30-second conversation."
   },
   {
@@ -550,6 +1018,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Make up a superhero name for every player in the group."
   },
   {
@@ -557,6 +1031,12 @@
     "category": "friends",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "End your turn with your biggest, funniest victory pose."
   },
   {
@@ -564,6 +1044,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What was your first impression of your partner?"
   },
   {
@@ -571,6 +1055,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Who said \"I love you\" first?"
   },
   {
@@ -578,6 +1066,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's your favorite memory together?"
   },
   {
@@ -585,6 +1077,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's one habit of your partner that secretly makes you smile?"
   },
   {
@@ -592,6 +1088,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's the sweetest surprise you've ever received?"
   },
   {
@@ -599,6 +1099,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing you've always wanted to tell your partner but haven't?"
   },
   {
@@ -606,6 +1110,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "If you could relive one date together, which one would it be?"
   },
   {
@@ -613,6 +1121,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's your partner's cutest habit?"
   },
   {
@@ -620,6 +1132,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever forgotten an important date or anniversary?"
   },
   {
@@ -627,6 +1143,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What quality do you admire most in your partner?"
   },
   {
@@ -634,6 +1154,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "If you could travel anywhere together, where would you go?"
   },
   {
@@ -641,6 +1165,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing your partner does better than you?"
   },
   {
@@ -648,6 +1176,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's the funniest argument you've ever had?"
   },
   {
@@ -655,6 +1187,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What song reminds you of your relationship?"
   },
   {
@@ -662,6 +1198,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "If your partner won a million dollars, what do you think they'd buy first?"
   },
   {
@@ -669,6 +1209,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's one small thing your partner does that makes your day better?"
   },
   {
@@ -676,6 +1220,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's your happiest moment together so far?"
   },
   {
@@ -683,6 +1231,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "If you had to describe your relationship in one word, what would it be?"
   },
   {
@@ -690,6 +1242,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "medium",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What is one dream you want to achieve together?"
   },
   {
@@ -697,6 +1253,10 @@
     "category": "couples",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing you appreciate about your partner that you don't say often?"
   },
   {
@@ -704,6 +1264,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Hold hands for the next 2 minutes."
   },
   {
@@ -711,6 +1275,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Give your partner three genuine compliments."
   },
   {
@@ -718,6 +1286,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Recreate your first photo together."
   },
   {
@@ -725,6 +1297,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Dance together for one minute without music."
   },
   {
@@ -732,6 +1308,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Look into each other's eyes for 30 seconds without laughing."
   },
   {
@@ -739,6 +1319,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Feed your partner a small snack without using your hands."
   },
   {
@@ -746,6 +1330,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Tell your partner your favorite memory of them."
   },
   {
@@ -753,6 +1341,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Let your partner choose your phone wallpaper for one hour."
   },
   {
@@ -760,6 +1352,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Act out how you first met."
   },
   {
@@ -767,6 +1363,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Sing a romantic song to your partner."
   },
   {
@@ -774,6 +1374,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Give your partner a high-five followed by a hug."
   },
   {
@@ -781,6 +1385,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Take a funny selfie together."
   },
   {
@@ -788,6 +1396,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Let your partner ask you any one harmless question—you must answer honestly."
   },
   {
@@ -795,6 +1407,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Describe your partner using only three positive words."
   },
   {
@@ -802,6 +1418,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Pretend you're meeting each other for the first time and introduce yourselves."
   },
   {
@@ -809,6 +1429,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Tell your partner one thing you're grateful for today."
   },
   {
@@ -816,6 +1440,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Try to make your partner laugh without touching them."
   },
   {
@@ -823,6 +1451,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Plan your dream date together in one minute."
   },
   {
@@ -830,6 +1462,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Exchange one fun nickname and use it until the end of the game."
   },
   {
@@ -837,6 +1473,10 @@
     "category": "couples",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "teens",
+      "adults"
+    ],
     "question": "Promise to do one kind thing for your partner today."
   },
   {
@@ -844,6 +1484,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who in your family makes you laugh the most?"
   },
   {
@@ -851,6 +1497,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who is the best cook in your family?"
   },
   {
@@ -858,6 +1510,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What is your funniest childhood memory?"
   },
   {
@@ -865,6 +1523,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever blamed a sibling for something you did?"
   },
   {
@@ -872,6 +1536,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which family member gives the best advice?"
   },
   {
@@ -879,6 +1549,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one family tradition you love?"
   },
   {
@@ -886,6 +1562,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever hidden your report card or exam results?"
   },
   {
@@ -893,6 +1575,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who is the funniest person in your family?"
   },
   {
@@ -900,6 +1588,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's your favorite family vacation memory?"
   },
   {
@@ -907,6 +1601,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever secretly eaten someone else's food at home?"
   },
   {
@@ -914,6 +1614,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which family member do you call first when you need help?"
   },
   {
@@ -921,6 +1627,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one funny nickname you have in your family?"
   },
   {
@@ -928,6 +1640,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever broken something at home and blamed someone else?"
   },
   {
@@ -935,6 +1653,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's your favorite homemade meal?"
   },
   {
@@ -942,6 +1666,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Which family member do you look up to the most?"
   },
   {
@@ -949,6 +1679,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the funniest thing your parents have ever said?"
   },
   {
@@ -956,6 +1692,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If your family had a reality TV show, what would it be called?"
   },
   {
@@ -963,6 +1705,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one habit you inherited from your parents?"
   },
   {
@@ -970,6 +1718,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who in your family would survive longest on a deserted island?"
   },
   {
@@ -977,6 +1731,12 @@
     "category": "family",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing you appreciate most about your family?"
   },
   {
@@ -984,6 +1744,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Give every family member a genuine compliment."
   },
   {
@@ -991,6 +1757,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Act like your mom or dad until someone guesses who you are."
   },
   {
@@ -998,6 +1770,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Sing your favorite childhood rhyme."
   },
   {
@@ -1005,6 +1783,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Tell a funny family story."
   },
   {
@@ -1012,6 +1796,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Help clean up for the next 5 minutes."
   },
   {
@@ -1019,6 +1809,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Call a grandparent or relative and say hello."
   },
   {
@@ -1026,6 +1822,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Do your funniest dance for 30 seconds."
   },
   {
@@ -1033,6 +1835,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Speak in a cartoon character's voice for one minute."
   },
   {
@@ -1040,6 +1848,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Hug every family member in the room."
   },
   {
@@ -1047,6 +1861,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Draw a funny picture of your family in one minute."
   },
   {
@@ -1054,13 +1874,25 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
-    "question": "Balance a spoon on your nose for 20 seconds."
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
+    "question": "Act like a news reporter and give a 20-second funny news report about something happening in the room."
   },
   {
     "id": 152,
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Say three things you're thankful for about your family."
   },
   {
@@ -1068,6 +1900,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend to be the oldest person in the family for one minute."
   },
   {
@@ -1075,6 +1913,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Walk backward until your next turn."
   },
   {
@@ -1082,6 +1926,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Tell everyone your funniest childhood nickname."
   },
   {
@@ -1089,6 +1939,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Make your best animal sound and let everyone guess the animal."
   },
   {
@@ -1096,6 +1952,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Let another player choose a funny pose for you to hold for 20 seconds."
   },
   {
@@ -1103,6 +1965,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Say the alphabet without using the letter \"E\" (stop when you can't continue)."
   },
   {
@@ -1110,6 +1978,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Share one happy family memory."
   },
   {
@@ -1117,6 +1991,12 @@
     "category": "family",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Give someone in your family a high-five and tell them why they're awesome."
   },
   {
@@ -1124,6 +2004,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Have you ever pretended to be busy when your boss walked by?"
   },
   {
@@ -1131,6 +2014,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Who is the funniest person in your office?"
   },
   {
@@ -1138,6 +2024,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Have you ever arrived late and blamed the traffic?"
   },
   {
@@ -1145,6 +2034,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's your favorite part of your job?"
   },
   {
@@ -1152,6 +2044,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "If you could swap jobs with one colleague for a day, who would it be?"
   },
   {
@@ -1159,6 +2054,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Have you ever forgotten an important meeting?"
   },
   {
@@ -1166,6 +2064,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Who makes the best tea or coffee in the office?"
   },
   {
@@ -1173,6 +2074,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's the funniest thing that has happened during a meeting?"
   },
   {
@@ -1180,6 +2084,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Have you ever sent a message to the wrong person?"
   },
   {
@@ -1187,6 +2094,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's one office habit you wish people would stop doing?"
   },
   {
@@ -1194,6 +2104,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "If your office had a talent show, what would you perform?"
   },
   {
@@ -1201,6 +2114,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Which colleague would survive best on a deserted island?"
   },
   {
@@ -1208,6 +2124,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Have you ever laughed during a serious meeting?"
   },
   {
@@ -1215,6 +2134,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's your dream office perk?"
   },
   {
@@ -1222,6 +2144,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "If you became the CEO for one day, what's the first change you'd make?"
   },
   {
@@ -1229,6 +2154,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's the best compliment you've received at work?"
   },
   {
@@ -1236,6 +2164,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's one skill you'd like to improve this year?"
   },
   {
@@ -1243,6 +2174,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Which colleague would make the best stand-up comedian?"
   },
   {
@@ -1250,6 +2184,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "If your office became a movie, what would its title be?"
   },
   {
@@ -1257,6 +2194,9 @@
     "category": "office",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "What's one thing you enjoy most about working with your team?"
   },
   {
@@ -1264,6 +2204,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Give a genuine compliment to a colleague."
   },
   {
@@ -1271,6 +2214,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Organize your desk in under one minute."
   },
   {
@@ -1278,6 +2224,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Speak in a motivational speaker's voice for your next sentence."
   },
   {
@@ -1285,6 +2234,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Stand up and stretch for 30 seconds."
   },
   {
@@ -1292,6 +2244,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Pretend you're presenting the Employee of the Year award."
   },
   {
@@ -1299,6 +2254,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Walk to the water dispenser in slow motion."
   },
   {
@@ -1306,6 +2264,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Tell a clean office joke."
   },
   {
@@ -1313,6 +2274,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Introduce yourself as if it's your first day at work."
   },
   {
@@ -1320,6 +2284,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Make a paper airplane and see how far it flies, if allowed."
   },
   {
@@ -1327,6 +2294,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Say three positive things about your workplace."
   },
   {
@@ -1334,6 +2304,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Pretend you're answering an imaginary customer call."
   },
   {
@@ -1341,6 +2314,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Smile continuously for the next minute."
   },
   {
@@ -1348,6 +2324,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Act like the office printer when it jams."
   },
   {
@@ -1355,6 +2334,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Share one productivity tip with the group."
   },
   {
@@ -1362,6 +2344,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Balance a pen on one finger for 15 seconds."
   },
   {
@@ -1369,6 +2354,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Describe your job using only five words."
   },
   {
@@ -1376,6 +2364,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Let another player choose a word you must use three times in your next conversation."
   },
   {
@@ -1383,6 +2374,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Imitate the office coffee machine or photocopier."
   },
   {
@@ -1390,6 +2384,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Thank someone at work for something they've helped you with."
   },
   {
@@ -1397,6 +2394,9 @@
     "category": "office",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "adults"
+    ],
     "question": "Create a funny slogan for your office team."
   },
   {
@@ -1404,6 +2404,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who at this party would survive the longest on a deserted island?"
   },
   {
@@ -1411,6 +2417,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the craziest thing you've ever done at a party?"
   },
   {
@@ -1418,6 +2430,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever accidentally embarrassed yourself in public?"
   },
   {
@@ -1425,6 +2443,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's your most unforgettable party memory?"
   },
   {
@@ -1432,6 +2456,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who here do you think has the best sense of humor?"
   },
   {
@@ -1439,6 +2469,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever danced when no one else was dancing?"
   },
   {
@@ -1446,6 +2482,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the funniest excuse you've ever used to leave a party?"
   },
   {
@@ -1453,6 +2495,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If you could invite any celebrity to this party, who would it be?"
   },
   {
@@ -1460,6 +2508,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever laughed so hard that you cried?"
   },
   {
@@ -1467,6 +2521,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the weirdest food you've ever eaten?"
   },
   {
@@ -1474,6 +2534,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Who here do you think would win a comedy competition?"
   },
   {
@@ -1481,6 +2547,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the funniest nickname you've ever had?"
   },
   {
@@ -1488,6 +2560,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever sung karaoke in front of a crowd?"
   },
   {
@@ -1495,6 +2573,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If you had one superpower for tonight, what would it be?"
   },
   {
@@ -1502,6 +2586,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one hidden talent most people at this party don't know about?"
   },
   {
@@ -1509,6 +2599,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If you could swap lives with someone here for one day, who would it be?"
   },
   {
@@ -1516,6 +2612,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Have you ever accidentally called someone by the wrong name?"
   },
   {
@@ -1523,6 +2625,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's the most adventurous thing you've ever done?"
   },
   {
@@ -1530,6 +2638,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "What's one thing on your bucket list you hope to do someday?"
   },
   {
@@ -1537,6 +2651,12 @@
     "category": "party",
     "type": "truth",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "If tonight became a movie, what would its title be?"
   },
   {
@@ -1544,6 +2664,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Dance continuously for one minute."
   },
   {
@@ -1551,6 +2677,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Sing the chorus of your favorite song as dramatically as possible."
   },
   {
@@ -1558,6 +2690,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend you're the DJ and announce the next imaginary song."
   },
   {
@@ -1565,6 +2703,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Tell your funniest joke."
   },
   {
@@ -1572,6 +2716,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Do your best robot dance for 30 seconds."
   },
   {
@@ -1579,13 +2729,25 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
-    "question": "Balance a spoon on your nose for 20 seconds."
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
+    "question": "Pretend you are a famous singer and perform the chorus of any song for 20 seconds."
   },
   {
     "id": 227,
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Let another player choose your pose for a group photo."
   },
   {
@@ -1593,6 +2755,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Speak only in rhymes until your next turn."
   },
   {
@@ -1600,6 +2768,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend you're walking on the moon for one minute."
   },
   {
@@ -1607,6 +2781,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Make three different animal sounds and let everyone guess them."
   },
   {
@@ -1614,6 +2794,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Wear your jacket or cap backwards until your next turn."
   },
   {
@@ -1621,6 +2807,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Try to keep a straight face while everyone tries to make you laugh."
   },
   {
@@ -1628,6 +2820,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Introduce yourself as if you're a superhero."
   },
   {
@@ -1635,6 +2833,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Act like you're accepting an Oscar award."
   },
   {
@@ -1642,6 +2846,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Do 10 squats while counting loudly."
   },
   {
@@ -1649,6 +2859,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Create a funny handshake with the player next to you."
   },
   {
@@ -1656,6 +2872,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Imitate a famous movie character until someone guesses who it is."
   },
   {
@@ -1663,6 +2885,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Pretend to be a sports commentator describing what's happening in the room."
   },
   {
@@ -1670,6 +2898,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "medium",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Tell a two-line story where every sentence must start with the next letter of the alphabet."
   },
   {
@@ -1677,6 +2911,12 @@
     "category": "party",
     "type": "dare",
     "difficulty": "easy",
+    "ageGroup": [
+      "all",
+      "kids",
+      "teens",
+      "adults"
+    ],
     "question": "Give everyone in the group a high-five and end with your biggest smile."
   }
 ]
