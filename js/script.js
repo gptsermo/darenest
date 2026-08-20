@@ -31,7 +31,7 @@ const categories = document.querySelectorAll(".category");
    LOAD QUESTIONS
 ========================= */
 
-fetch("data/questions.json")
+fetch("data/questions_v2.json")
     .then(response => {
 
         if (!response.ok) {
@@ -64,10 +64,11 @@ fetch("data/questions.json")
 function getRandomQuestion(type) {
 
     let filteredQuestions = questions.filter(question =>
-        question.category === currentCategory &&
+        (currentCategory === "all" ||
+        question.category === currentCategory) &&
         question.type === type &&
         (currentAgeGroup === "all" ||
-         question.ageGroup.includes(currentAgeGroup)) &&
+        question.ageGroup.includes(currentAgeGroup)) &&
         !usedQuestionIds.includes(question.id)
     );
 
@@ -77,11 +78,12 @@ function getRandomQuestion(type) {
         usedQuestionIds = [];
 
         filteredQuestions = questions.filter(question =>
-            question.category === currentCategory &&
-            question.type === type &&
-            (currentAgeGroup === "all" ||
-             question.ageGroup.includes(currentAgeGroup))
-        );
+          (currentCategory === "all" ||
+           question.category === currentCategory) &&
+           question.type === type &&
+           (currentAgeGroup === "all" ||
+           question.ageGroup.includes(currentAgeGroup))
+           );
     }
 
     if (filteredQuestions.length === 0) {
