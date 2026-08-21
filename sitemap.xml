@@ -1,39 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-    <loc>https://darenest.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-</url>
-
-<url>
-    <loc>https://darenest.com/friends-truth-or-dare.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-
-<url>
-    <loc>https://darenest.com/couples-truth-or-dare.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-
-<url>
-    <loc>https://darenest.com/family-truth-or-dare.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-
-<url>
-    <loc>https://darenest.com/office-truth-or-dare.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://darenest.com/party-truth-or-dare.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
+    <url><loc>https://darenest.com/about.html</loc></url>
+    <url><loc>https://darenest.com/advanced-friends-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/best-friends-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/birthday-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/categories.html</loc></url>
+    <url><loc>https://darenest.com/college-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/contact.html</loc></url>
+    <url><loc>https://darenest.com/couples-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/couples-us-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/family-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/friends-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/friends-us-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/funny-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/hard-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/holiday-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/</loc></url>
+    <url><loc>https://darenest.com/kids-family-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/movies-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/music-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/office-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/party-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/pets-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/privacy.html</loc></url>
+    <url><loc>https://darenest.com/romantic-couples-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/siblings-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/summer-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/teens-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/terms.html</loc></url>
+    <url><loc>https://darenest.com/this-or-that-questions.html</loc></url>
+    <url><loc>https://darenest.com/travel-truth-or-dare.html</loc></url>
+    <url><loc>https://darenest.com/would-you-rather-questions.html</loc></url>
 </urlset>
