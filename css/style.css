@@ -1,0 +1,1034 @@
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+
+    color:white;
+
+    min-height:100vh;
+
+}
+
+/* Navigation */
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 8%;
+
+    position:sticky;
+
+    top:0;
+
+    background:rgba(15,23,42,.85);
+
+    backdrop-filter:blur(12px);
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#38bdf8;
+
+}
+
+/* Hero */
+
+.hero{
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    color:#cbd5e1;
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:1.6;
+
+}
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:45px;
+
+}
+
+button{
+
+    border:none;
+
+    padding:18px 42px;
+
+    margin:12px;
+
+    font-size:20px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+#truthBtn{
+
+    background:#22c55e;
+
+    color:white;
+
+}
+
+#dareBtn{
+
+    background:#ef4444;
+
+    color:white;
+
+}
+
+button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 30px rgba(255,255,255,.15);
+
+}
+
+/* Challenge Card */
+
+.card{
+
+    width:90%;
+
+    max-width:850px;
+
+    margin:40px auto;
+
+    background:#1e293b;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.card h2{
+
+    margin-bottom:25px;
+
+}
+
+#result{
+
+    font-size:28px;
+
+    line-height:1.6;
+
+    color:#f8fafc;
+
+    min-height:90px;
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    padding:35px;
+
+    margin-top:60px;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+nav{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+nav ul{
+
+gap:18px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+button{
+
+width:90%;
+
+max-width:320px;
+
+}
+
+.card{
+
+padding:25px;
+
+}
+
+#result{
+
+font-size:22px;
+
+}
+
+}
+#challengeType{
+
+    display:inline-block;
+
+    background:#7c3aed;
+
+    color:white;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    margin-bottom:25px;
+
+}
+
+#nextBtn{
+
+    margin-top:35px;
+
+    background:#7c3aed;
+
+    color:white;
+
+}
+
+#nextBtn:hover{
+
+    background:#6d28d9;
+
+}
+
+.categories{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.category-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+.category{
+
+    background:#273449;
+
+    color:white;
+
+    padding:14px 24px;
+
+    border-radius:40px;
+
+    border:none;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.category:hover{
+
+    background:#7c3aed;
+
+}
+
+.category.active{
+
+    background:#7c3aed;
+
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#8b5cf6;
+}
+
+/* ==============================
+   FAVORITES SECTION
+   ============================== */
+
+.favorites-card {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #1e293b;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.favorites-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.favorite-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 12px;
+    background: #263449;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.favorite-item button {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* ==============================
+   SEARCH BOX
+   ============================== */
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.search-box input {
+    width: 350px;
+    max-width: 70%;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-result {
+    display: block;
+    width: 90%;
+    max-width: 700px;
+    margin: 8px auto;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    background: #263449;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search-result:hover {
+    transform: translateY(-2px);
+}
+
+/* ==============================
+   MOBILE UI IMPROVEMENTS
+   ============================== */
+
+@media (max-width: 600px) {
+
+    .buttons {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .buttons button {
+        flex: 1;
+        min-height: 50px;
+        font-size: 16px;
+    }
+
+    .category-grid {
+    gap: 8px;
+}
+
+.category-grid .category {
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.age-group {
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+.age-option {
+    padding: 9px 12px;
+    font-size: 13px;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+.search-box input {
+    flex: 1 1 auto;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.search-box button {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 14px 18px;
+}
+
+}
+
+/* ==============================
+   AGE GROUP
+   ============================== */
+
+.age-title {
+    text-align: center;
+    margin: 18px 0 8px;
+    font-size: 16px;
+}
+
+.age-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0 20px;
+}
+
+.age-option {
+    background: #273449;
+    color: white;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.age-option:hover {
+    background: #7c3aed;
+}
+
+.age-option.active {
+    background: #7c3aed;
+}
+
+/* Would You Rather */
+.game-mode-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.mode-btn.active {
+    transform: translateY(-1px);
+}
+.wyr-question {
+    margin-bottom: 18px;
+}
+.wyr-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.wyr-option {
+    padding: 12px 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+.wyr-option.selected {
+    border-color: currentColor;
+    font-weight: 700;
+}
+.wyr-or {
+    font-weight: 700;
+}
+@media (max-width: 600px) {
+    .wyr-options {
+        flex-direction: column;
+    }
+    .wyr-option {
+        width: 100%;
+    }
+}
+
+/* ===== DareNest Step 2 corrected guided flow ===== */
+.dn-flow{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px;box-sizing:border-box}
+.dn-screen{width:100%;max-width:760px}
+.dn-screen[hidden]{display:none!important}
+.dn-card{background:var(--card-bg,#fff);border-radius:24px;padding:32px 24px;box-shadow:0 10px 35px rgba(0,0,0,.08);text-align:center}
+.dn-hero-card{padding:48px 24px}
+.dn-emoji{font-size:48px;margin-bottom:8px}
+.dn-card h1,.dn-card h2{color:inherit!important}
+.dn-card h1{margin:0 0 8px;font-size:clamp(2rem,7vw,3.2rem)}
+.dn-card h2{margin:0 0 8px;font-size:clamp(1.7rem,5vw,2.4rem)}
+.dn-tagline{font-size:1.2rem;font-weight:700;margin:0 0 8px}
+.dn-subtitle,.dn-help{margin:0 0 24px;opacity:.78}
+.dn-step{font-size:.78rem;font-weight:800;letter-spacing:.12em;opacity:.6;margin-bottom:10px}
+.dn-choice-grid,.dn-game-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.dn-choice,.dn-game-choice{min-height:58px;border:2px solid #ddd;border-radius:16px;background:#fff;color:#111;font:inherit;font-weight:700;padding:14px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s}
+.dn-choice:hover,.dn-game-choice:hover{transform:translateY(-1px);box-shadow:0 5px 15px rgba(0,0,0,.08)}
+.dn-choice:focus-visible,.dn-game-choice:focus-visible,.dn-primary-btn:focus-visible,.dn-back:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.dn-game-choice{display:flex;align-items:center;justify-content:center;gap:10px;font-size:1rem}
+.dn-primary-btn{border:0;border-radius:16px;padding:16px 26px;font:inherit;font-weight:800;cursor:pointer;min-height:56px}
+.dn-back{margin-top:20px;border:0;background:transparent;font:inherit;font-weight:700;cursor:pointer;padding:10px 14px}
+body.dn-playing #dnFlow{display:none!important}
+body.dn-playing .hero{display:none!important}
+body.dn-playing #gameCard{display:block!important}
+@media(max-width:560px){.dn-card{padding:28px 16px;border-radius:20px}.dn-hero-card{padding:40px 16px}.dn-choice-grid,.dn-game-grid{grid-template-columns:1fr}.dn-flow{padding:16px 12px}}
+
+/* ===== Step 2 UI polish: scoped flow presentation ===== */
+body.dn-step2-body #dnFlow{
+  min-height:calc(100vh - 24px);
+  padding:32px 16px;
+}
+body.dn-step2-body #dnFlow .dn-screen{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+body.dn-step2-body #dnFlow .dn-card{
+  width:min(680px,100%);
+  min-height:0;
+  box-sizing:border-box;
+  padding:34px 30px 28px;
+  background:#fff;
+  color:#111;
+  border-radius:24px;
+  box-shadow:0 10px 35px rgba(0,0,0,.08);
+}
+body.dn-step2-body #dnFlow .dn-card h1,
+body.dn-step2-body #dnFlow .dn-card h2{
+  display:block!important;
+  visibility:visible!important;
+  opacity:1!important;
+  color:#111!important;
+  line-height:1.15;
+}
+body.dn-step2-body #dnFlow .dn-card h1{font-size:clamp(2.2rem,7vw,3.4rem);margin:0 0 10px}
+body.dn-step2-body #dnFlow .dn-card h2{font-size:clamp(1.65rem,5vw,2.35rem);margin:0 0 8px}
+body.dn-step2-body #dnFlow .dn-tagline,
+body.dn-step2-body #dnFlow .dn-subtitle,
+body.dn-step2-body #dnFlow .dn-help,
+body.dn-step2-body #dnFlow .dn-step{
+  display:block!important;
+  visibility:visible!important;
+  color:#111!important;
+}
+body.dn-step2-body #dnFlow .dn-choice-grid,
+body.dn-step2-body #dnFlow .dn-game-grid{
+  width:100%;
+  margin-top:8px;
+}
+body.dn-step2-body #dnFlow .dn-choice,
+body.dn-step2-body #dnFlow .dn-game-choice{
+  color:#111!important;
+  background:#fff!important;
+}
+@media(max-width:560px){
+  body.dn-step2-body #dnFlow{padding:18px 12px}
+  body.dn-step2-body #dnFlow .dn-card{padding:28px 16px 24px}
+}
+
+/* ===== Step 3: secondary Change Game control ===== */
+.dn-change-game{
+  position:fixed;
+  left:50%;
+  bottom:18px;
+  transform:translateX(-50%);
+  z-index:1000;
+  min-height:42px;
+  padding:9px 16px;
+  border:1px solid rgba(255,255,255,.55);
+  border-radius:999px;
+  background:rgba(255,255,255,.96);
+  color:#111;
+  font:inherit;
+  font-size:.9rem;
+  font-weight:700;
+  cursor:pointer;
+  box-shadow:0 6px 20px rgba(0,0,0,.15);
+}
+.dn-change-game:hover{transform:translateX(-50%) translateY(-1px)}
+.dn-change-game:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+@media(max-width:560px){
+  .dn-change-game{bottom:12px;min-height:40px;padding:8px 14px;font-size:.86rem}
+}
+
+/* ===== Step 4 navigation polish ===== */
+body.dn-step2-body #dnFlow .dn-back{
+  display:inline-flex!important;
+  align-items:center;
+  justify-content:center;
+  min-height:44px;
+  min-width:96px;
+  margin-top:18px;
+  color:#111!important;
+  background:transparent!important;
+  border-radius:999px;
+}
+body.dn-step2-body #dnFlow .dn-back:hover{
+  background:rgba(0,0,0,.05)!important;
+}
+
+/* ===== Step 5.1: WYR / This-or-That selected option ===== */
+.wyr-options .wyr-option{
+    position:relative;
+    transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease, background-color .15s ease;
+}
+.wyr-options .wyr-option.selected{
+    border-width:3px;
+    transform:translateY(-2px);
+    box-shadow:0 7px 18px rgba(0,0,0,.16);
+    font-weight:800;
+}
+.wyr-options .wyr-option.selected::after{
+    content:"✓";
+    position:absolute;
+    top:7px;
+    right:9px;
+    font-size:1.05rem;
+    font-weight:900;
+}
+.choice-selected-message{
+    min-height:24px;
+    margin-top:12px;
+    font-size:.92rem;
+    font-weight:700;
+    opacity:.9;
+}
+
+/* ===== Step 6 gameplay experience ===== */
+.dn-game-status{
+    min-height:24px;
+    margin:8px auto 12px;
+    text-align:center;
+    font-size:.9rem;
+    font-weight:700;
+    opacity:.78;
+}
+#nextBtn,#shareBtn,#favoriteBtn{
+    min-height:44px;
+    touch-action:manipulation;
+}
+#nextBtn{transition:transform .15s ease,box-shadow .15s ease}
+#nextBtn:active{transform:scale(.98)}
+
+/* ===== Step 7: Favorites & saved questions experience ===== */
+#dnFavoritesOpen{
+    min-height:44px;
+    touch-action:manipulation;
+}
+.dn-favorites-panel{
+    position:fixed;
+    inset:0;
+    z-index:2000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px;
+    background:rgba(0,0,0,.55);
+}
+.dn-favorites-panel[hidden]{display:none!important}
+.dn-favorites-dialog{
+    width:min(720px,100%);
+    max-height:min(82vh,760px);
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    background:#fff;
+    color:#111;
+    border-radius:22px;
+    box-shadow:0 18px 55px rgba(0,0,0,.28);
+}
+.dn-favorites-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:18px 20px 8px;
+}
+.dn-favorites-header h2{margin:0;font-size:1.35rem}
+.dn-favorites-close{
+    width:42px;
+    height:42px;
+    flex:0 0 42px;
+    border:0;
+    border-radius:50%;
+    background:transparent;
+    color:#111;
+    font-size:28px;
+    line-height:1;
+    cursor:pointer;
+}
+.dn-favorites-close:hover{background:rgba(0,0,0,.06)}
+.dn-favorites-count{
+    margin:0;
+    padding:0 20px 14px;
+    opacity:.7;
+    font-size:.9rem;
+}
+.dn-favorites-items{
+    overflow:auto;
+    padding:0 20px 12px;
+}
+.dn-favorite-entry{
+    border:1px solid #ddd;
+    border-radius:16px;
+    padding:14px;
+    margin-bottom:10px;
+}
+.dn-favorite-type{
+    font-size:.75rem;
+    font-weight:800;
+    letter-spacing:.08em;
+    opacity:.65;
+    margin-bottom:7px;
+}
+.dn-favorite-question{
+    font-weight:700;
+    line-height:1.4;
+    margin-bottom:8px;
+}
+.dn-favorite-options{
+    font-size:.9rem;
+    opacity:.78;
+    margin-bottom:10px;
+}
+.dn-favorite-actions{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+}
+.dn-favorite-load,.dn-favorite-remove{
+    min-height:40px;
+    padding:8px 13px;
+    border-radius:999px;
+    border:1px solid #ccc;
+    background:#fff;
+    color:#111;
+    font:inherit;
+    font-weight:700;
+    cursor:pointer;
+}
+.dn-favorite-load{border:0}
+.dn-favorite-remove{font-weight:600}
+.dn-favorites-empty{
+    padding:30px 10px 34px;
+    text-align:center;
+    opacity:.72;
+}
+.dn-favorites-footer{
+    padding:12px 20px 18px;
+    border-top:1px solid #eee;
+    text-align:right;
+}
+.dn-favorites-clear{
+    min-height:42px;
+    padding:9px 15px;
+    border:1px solid #ccc;
+    border-radius:999px;
+    background:#fff;
+    color:#111;
+    font:inherit;
+    font-weight:700;
+    cursor:pointer;
+}
+@media(max-width:560px){
+    .dn-favorites-panel{align-items:flex-end;padding:0}
+    .dn-favorites-dialog{max-height:88vh;border-radius:22px 22px 0 0}
+    .dn-favorites-header{padding:16px 16px 8px}
+    .dn-favorites-count{padding-left:16px;padding-right:16px}
+    .dn-favorites-items{padding-left:16px;padding-right:16px}
+    .dn-favorites-footer{padding-left:16px;padding-right:16px}
+}
+
+/* ===== Step 8: additional game modes ===== */
+.dn-game-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dn-game-choice{min-height:66px}
+@media(max-width:560px){.dn-game-grid{grid-template-columns:1fr}}
+
+/* ===== Step 9: mobile UX + smooth guided flow ===== */
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{overflow-x:hidden}
+button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+button:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+
+
+.dn-flow-step.is-active,.dn-flow-step.is-complete{opacity:1}
+
+#nextBtn,#shareBtn,#favoriteBtn,#dnFavoritesOpen{min-height:46px}
+.dn-game-choice{min-height:60px}
+@media(max-width:700px){
+  
+  
+  
+  .dn-game-choice{min-height:58px}
+  #nextBtn,#shareBtn,#favoriteBtn,#dnFavoritesOpen{width:100%}
+}
+@media(max-width:420px){
+  
+  
+  
+  .dn-game-grid{grid-template-columns:1fr!important}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
+
+/* ===== Step 9.1: mobile UI correction ===== */
+.dn-flow{
+  position:relative;
+  padding-top:58px;
+}
+
+
+
+.dn-choice{
+  min-height:52px!important;
+  padding:10px 14px!important;
+}
+.dn-game-choice{
+  min-height:52px!important;
+  padding:10px 12px!important;
+}
+.dn-primary-btn{
+  min-height:50px;
+  padding:10px 18px;
+}
+#nextBtn,#shareBtn,#favoriteBtn,#dnFavoritesOpen{
+  min-height:44px;
+}
+
+@media(max-width:560px){
+  .dn-flow{
+    padding:54px 8px 16px;
+  }
+  
+  
+  
+  .dn-card{
+    padding:24px 14px 20px;
+  }
+  .dn-choice{
+    min-height:50px!important;
+  }
+  .dn-game-choice{
+    min-height:50px!important;
+  }
+}
+
+/* ===== Step 9.2 final mobile polish ===== */
+.dn-flow{position:relative;padding-top:76px}
+
+@media(max-width:560px){
+  .dn-flow{padding-top:70px}
+  
+}
+
+/* ===== Step 9.3 final control sizing ===== */
+#shareBtn,#favoriteBtn,#dnFavoritesOpen{
+  min-height:42px;
+  padding:8px 12px;
+  font-size:.93rem;
+}
+
+/* ===== Step 9.4: Favorites mobile readability + larger game pools ===== */
+.favorite-item{
+    position:relative;
+    display:block;
+    padding:14px 46px 14px 14px;
+    margin-bottom:10px;
+    line-height:1.45;
+}
+.favorite-type{
+    font-size:.78rem;
+    font-weight:800;
+    letter-spacing:.04em;
+    margin-bottom:6px;
+    opacity:.8;
+}
+.favorite-question{
+    font-size:1rem;
+    font-weight:600;
+    overflow-wrap:anywhere;
+    word-break:normal;
+}
+.favorite-remove{
+    position:absolute;
+    top:12px;
+    right:10px;
+    width:32px;
+    height:32px;
+    padding:0;
+    border:0;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:14px;
+}
+@media(max-width:560px){
+    .favorites-card{
+        width:calc(100% - 20px);
+        padding:18px 12px;
+        margin:24px auto;
+    }
+    .favorites-card h2{
+        font-size:1.2rem;
+        margin-bottom:14px;
+    }
+    .favorite-item{
+        padding:13px 42px 13px 13px;
+    }
+    .favorite-question{
+        font-size:.95rem;
+        line-height:1.42;
+    }
+}

@@ -1,0 +1,979 @@
+{
+  "game_mode": "would_you_rather",
+  "version": "1.0",
+  "total_questions": 120,
+  "categories": [
+    "icebreakers",
+    "food",
+    "adventure_travel",
+    "funny_imaginative",
+    "friends_family",
+    "lifestyle_personality"
+  ],
+  "age_groups": [
+    "all_ages",
+    "kids_teens"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather always know when someone is joking or always know when someone is telling the truth?",
+      "option_a": "Always know when someone is joking",
+      "option_b": "Always know when someone is telling the truth"
+    },
+    {
+      "id": 2,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to remember every name you hear or every face you see?",
+      "option_a": "Remember every name",
+      "option_b": "Remember every face"
+    },
+    {
+      "id": 3,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather have breakfast for dinner or dinner for breakfast?",
+      "option_a": "Breakfast for dinner",
+      "option_b": "Dinner for breakfast"
+    },
+    {
+      "id": 4,
+      "category": "icebreakers",
+      "age_group": "kids_teens",
+      "question": "Would you rather have a personal theme song or a personal entrance sound?",
+      "option_a": "Personal theme song",
+      "option_b": "Personal entrance sound"
+    },
+    {
+      "id": 5,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather always be five minutes early or always be five minutes late?",
+      "option_a": "Five minutes early",
+      "option_b": "Five minutes late"
+    },
+    {
+      "id": 6,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather have a perfect memory or never forget a birthday?",
+      "option_a": "Perfect memory",
+      "option_b": "Never forget a birthday"
+    },
+    {
+      "id": 7,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather be great at telling stories or great at making people laugh?",
+      "option_a": "Great at storytelling",
+      "option_b": "Great at making people laugh"
+    },
+    {
+      "id": 8,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather always get the window seat or always get the aisle seat?",
+      "option_a": "Window seat",
+      "option_b": "Aisle seat"
+    },
+    {
+      "id": 9,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather have a surprise party or plan your own party?",
+      "option_a": "Surprise party",
+      "option_b": "Plan my own party"
+    },
+    {
+      "id": 10,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather be famous for being kind or famous for being clever?",
+      "option_a": "Famous for being kind",
+      "option_b": "Famous for being clever"
+    },
+    {
+      "id": 11,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather have unlimited snacks or unlimited desserts?",
+      "option_a": "Unlimited snacks",
+      "option_b": "Unlimited desserts"
+    },
+    {
+      "id": 12,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to speak every language or play every musical instrument?",
+      "option_a": "Speak every language",
+      "option_b": "Play every instrument"
+    },
+    {
+      "id": 13,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather have a really funny laugh or a really impressive whistle?",
+      "option_a": "Funny laugh",
+      "option_b": "Impressive whistle"
+    },
+    {
+      "id": 14,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather choose the music for every road trip or choose the snacks for every road trip?",
+      "option_a": "Choose the music",
+      "option_b": "Choose the snacks"
+    },
+    {
+      "id": 15,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather always have the perfect comeback or always have the perfect joke?",
+      "option_a": "Perfect comeback",
+      "option_b": "Perfect joke"
+    },
+    {
+      "id": 16,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather meet someone from the future or someone from the past?",
+      "option_a": "Meet someone from the future",
+      "option_b": "Meet someone from the past"
+    },
+    {
+      "id": 17,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather be the best cook in your friend group or the best photographer?",
+      "option_a": "Best cook",
+      "option_b": "Best photographer"
+    },
+    {
+      "id": 18,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather have a room filled with books or a room filled with games?",
+      "option_a": "Books",
+      "option_b": "Games"
+    },
+    {
+      "id": 19,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather always have your favorite song playing or always have your favorite food available?",
+      "option_a": "Favorite song",
+      "option_b": "Favorite food"
+    },
+    {
+      "id": 20,
+      "category": "icebreakers",
+      "age_group": "all_ages",
+      "question": "Would you rather be excellent at remembering directions or excellent at remembering facts?",
+      "option_a": "Remember directions",
+      "option_b": "Remember facts"
+    },
+    {
+      "id": 21,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather eat only sweet foods for a day or only savory foods for a day?",
+      "option_a": "Only sweet foods",
+      "option_b": "Only savory foods"
+    },
+    {
+      "id": 22,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have pizza or burgers for your next meal?",
+      "option_a": "Pizza",
+      "option_b": "Burgers"
+    },
+    {
+      "id": 23,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have unlimited ice cream or unlimited popcorn?",
+      "option_a": "Unlimited ice cream",
+      "option_b": "Unlimited popcorn"
+    },
+    {
+      "id": 24,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather eat breakfast foods all day or dinner foods all day?",
+      "option_a": "Breakfast foods",
+      "option_b": "Dinner foods"
+    },
+    {
+      "id": 25,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have fries with every meal or rice with every meal?",
+      "option_a": "Fries",
+      "option_b": "Rice"
+    },
+    {
+      "id": 26,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather give up chocolate or give up cheese for a month?",
+      "option_a": "Give up chocolate",
+      "option_b": "Give up cheese"
+    },
+    {
+      "id": 27,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have a giant bowl of your favorite soup or a giant plate of your favorite noodles?",
+      "option_a": "Favorite soup",
+      "option_b": "Favorite noodles"
+    },
+    {
+      "id": 28,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to make perfect pancakes or perfect pizza?",
+      "option_a": "Perfect pancakes",
+      "option_b": "Perfect pizza"
+    },
+    {
+      "id": 29,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have unlimited fruit or unlimited vegetables?",
+      "option_a": "Unlimited fruit",
+      "option_b": "Unlimited vegetables"
+    },
+    {
+      "id": 30,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather eat something crunchy or something creamy?",
+      "option_a": "Crunchy",
+      "option_b": "Creamy"
+    },
+    {
+      "id": 31,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have a sandwich or a wrap for lunch?",
+      "option_a": "Sandwich",
+      "option_b": "Wrap"
+    },
+    {
+      "id": 32,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have mango or watermelon on a hot day?",
+      "option_a": "Mango",
+      "option_b": "Watermelon"
+    },
+    {
+      "id": 33,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather drink a fruit smoothie or a milkshake?",
+      "option_a": "Fruit smoothie",
+      "option_b": "Milkshake"
+    },
+    {
+      "id": 34,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have pancakes or waffles?",
+      "option_a": "Pancakes",
+      "option_b": "Waffles"
+    },
+    {
+      "id": 35,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather eat your favorite meal every Friday or try a new meal every Friday?",
+      "option_a": "Favorite meal every Friday",
+      "option_b": "New meal every Friday"
+    },
+    {
+      "id": 36,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have a dessert buffet or a snack buffet?",
+      "option_a": "Dessert buffet",
+      "option_b": "Snack buffet"
+    },
+    {
+      "id": 37,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have noodles or tacos for a casual dinner?",
+      "option_a": "Noodles",
+      "option_b": "Tacos"
+    },
+    {
+      "id": 38,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather eat something very spicy or something very sour?",
+      "option_a": "Very spicy",
+      "option_b": "Very sour"
+    },
+    {
+      "id": 39,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather have fresh bread or freshly baked cookies?",
+      "option_a": "Fresh bread",
+      "option_b": "Freshly baked cookies"
+    },
+    {
+      "id": 40,
+      "category": "food",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to instantly cook any recipe or instantly know which food you would enjoy most?",
+      "option_a": "Instantly cook any recipe",
+      "option_b": "Instantly know my favorite choice"
+    },
+    {
+      "id": 41,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather explore a rainforest or a desert?",
+      "option_a": "Rainforest",
+      "option_b": "Desert"
+    },
+    {
+      "id": 42,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather visit the mountains or the beach?",
+      "option_a": "Mountains",
+      "option_b": "Beach"
+    },
+    {
+      "id": 43,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather take a road trip or a train journey?",
+      "option_a": "Road trip",
+      "option_b": "Train journey"
+    },
+    {
+      "id": 44,
+      "category": "adventure_travel",
+      "age_group": "kids_teens",
+      "question": "Would you rather spend a day at a huge water park or a huge amusement park?",
+      "option_a": "Water park",
+      "option_b": "Amusement park"
+    },
+    {
+      "id": 45,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather camp under the stars or stay in a cozy cabin?",
+      "option_a": "Camp under the stars",
+      "option_b": "Cozy cabin"
+    },
+    {
+      "id": 46,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather travel by train through beautiful scenery or fly over it?",
+      "option_a": "Train",
+      "option_b": "Fly"
+    },
+    {
+      "id": 47,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather explore an ancient city or a futuristic city?",
+      "option_a": "Ancient city",
+      "option_b": "Futuristic city"
+    },
+    {
+      "id": 48,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather go hiking or cycling on your next outdoor adventure?",
+      "option_a": "Hiking",
+      "option_b": "Cycling"
+    },
+    {
+      "id": 49,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather watch a sunrise from a mountain or a sunset from the beach?",
+      "option_a": "Mountain sunrise",
+      "option_b": "Beach sunset"
+    },
+    {
+      "id": 50,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather explore a famous museum or a famous landmark?",
+      "option_a": "Museum",
+      "option_b": "Landmark"
+    },
+    {
+      "id": 51,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather take a trip with your best friend or with your family?",
+      "option_a": "Best friend",
+      "option_b": "Family"
+    },
+    {
+      "id": 52,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather visit a snowy place or a tropical place?",
+      "option_a": "Snowy place",
+      "option_b": "Tropical place"
+    },
+    {
+      "id": 53,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather travel with a backpack or a suitcase?",
+      "option_a": "Backpack",
+      "option_b": "Suitcase"
+    },
+    {
+      "id": 54,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather spend a week exploring one city or three different cities?",
+      "option_a": "One city",
+      "option_b": "Three cities"
+    },
+    {
+      "id": 55,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather go on a safari or whale-watching trip?",
+      "option_a": "Safari",
+      "option_b": "Whale watching"
+    },
+    {
+      "id": 56,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather sleep in a treehouse or a houseboat?",
+      "option_a": "Treehouse",
+      "option_b": "Houseboat"
+    },
+    {
+      "id": 57,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather explore a cave or a waterfall?",
+      "option_a": "Cave",
+      "option_b": "Waterfall"
+    },
+    {
+      "id": 58,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather take a slow scenic journey or a fast exciting journey?",
+      "option_a": "Slow scenic journey",
+      "option_b": "Fast exciting journey"
+    },
+    {
+      "id": 59,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather visit a place famous for nature or a place famous for history?",
+      "option_a": "Nature",
+      "option_b": "History"
+    },
+    {
+      "id": 60,
+      "category": "adventure_travel",
+      "age_group": "all_ages",
+      "question": "Would you rather have a surprise destination chosen for you or choose every destination yourself?",
+      "option_a": "Surprise destination",
+      "option_b": "Choose myself"
+    },
+    {
+      "id": 61,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a tiny elephant as a pet or a giant hamster?",
+      "option_a": "Tiny elephant",
+      "option_b": "Giant hamster"
+    },
+    {
+      "id": 62,
+      "category": "funny_imaginative",
+      "age_group": "kids_teens",
+      "question": "Would you rather have to hop everywhere or walk backward everywhere for one day?",
+      "option_a": "Hop everywhere",
+      "option_b": "Walk backward"
+    },
+    {
+      "id": 63,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have hair that changes color with your mood or shoes that change color every hour?",
+      "option_a": "Mood-changing hair",
+      "option_b": "Color-changing shoes"
+    },
+    {
+      "id": 64,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to talk to dogs or cats?",
+      "option_a": "Talk to dogs",
+      "option_b": "Talk to cats"
+    },
+    {
+      "id": 65,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather sneeze bubbles or hiccup tiny musical notes?",
+      "option_a": "Sneeze bubbles",
+      "option_b": "Hiccup musical notes"
+    },
+    {
+      "id": 66,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a robot helper or a magical talking backpack?",
+      "option_a": "Robot helper",
+      "option_b": "Talking backpack"
+    },
+    {
+      "id": 67,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to shrink to the size of a toy or grow as tall as a building for one hour?",
+      "option_a": "Shrink to toy size",
+      "option_b": "Grow as tall as a building"
+    },
+    {
+      "id": 68,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather live in a giant treehouse or a giant castle?",
+      "option_a": "Giant treehouse",
+      "option_b": "Giant castle"
+    },
+    {
+      "id": 69,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a friendly dragon or a friendly unicorn?",
+      "option_a": "Friendly dragon",
+      "option_b": "Friendly unicorn"
+    },
+    {
+      "id": 70,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to fly but only as fast as a bicycle or run as fast as a car?",
+      "option_a": "Fly at bicycle speed",
+      "option_b": "Run at car speed"
+    },
+    {
+      "id": 71,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a magic pencil that draws real objects or a magic notebook that predicts tomorrow's weather?",
+      "option_a": "Magic pencil",
+      "option_b": "Magic notebook"
+    },
+    {
+      "id": 72,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a pet dinosaur or a pet robot?",
+      "option_a": "Pet dinosaur",
+      "option_b": "Pet robot"
+    },
+    {
+      "id": 73,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather live on a floating island or in an underground city?",
+      "option_a": "Floating island",
+      "option_b": "Underground city"
+    },
+    {
+      "id": 74,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a door that opens anywhere or a backpack with unlimited space?",
+      "option_a": "Anywhere door",
+      "option_b": "Unlimited backpack"
+    },
+    {
+      "id": 75,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to pause time for ten minutes a day or rewind time for one minute a day?",
+      "option_a": "Pause time",
+      "option_b": "Rewind one minute"
+    },
+    {
+      "id": 76,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a cloud that follows you and provides shade or a tiny sun that follows you and provides light?",
+      "option_a": "Shade cloud",
+      "option_b": "Tiny sun"
+    },
+    {
+      "id": 77,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have every sock you wear be a different color or every shirt you wear have a funny picture on it?",
+      "option_a": "Different-color socks",
+      "option_b": "Funny-picture shirts"
+    },
+    {
+      "id": 78,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to turn invisible for ten minutes or become super strong for ten minutes?",
+      "option_a": "Invisible",
+      "option_b": "Super strong"
+    },
+    {
+      "id": 79,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather have a personal mini trampoline or a personal mini slide in your room?",
+      "option_a": "Mini trampoline",
+      "option_b": "Mini slide"
+    },
+    {
+      "id": 80,
+      "category": "funny_imaginative",
+      "age_group": "all_ages",
+      "question": "Would you rather wake up with a new superpower every week or keep one superpower forever?",
+      "option_a": "New power every week",
+      "option_b": "One power forever"
+    },
+    {
+      "id": 81,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a game night with friends or a movie night with family?",
+      "option_a": "Game night with friends",
+      "option_b": "Movie night with family"
+    },
+    {
+      "id": 82,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather be the person who plans every group outing or the person who chooses the food?",
+      "option_a": "Plan the outing",
+      "option_b": "Choose the food"
+    },
+    {
+      "id": 83,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have one very adventurous friend or one very calm friend?",
+      "option_a": "Adventurous friend",
+      "option_b": "Calm friend"
+    },
+    {
+      "id": 84,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather play a board game or a team sport with your friends?",
+      "option_a": "Board game",
+      "option_b": "Team sport"
+    },
+    {
+      "id": 85,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather receive a handwritten note or a thoughtful surprise?",
+      "option_a": "Handwritten note",
+      "option_b": "Thoughtful surprise"
+    },
+    {
+      "id": 86,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a friend who loves the same hobbies as you or a friend who introduces you to new hobbies?",
+      "option_a": "Same hobbies",
+      "option_b": "New hobbies"
+    },
+    {
+      "id": 87,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather host a big family dinner or a small friends' dinner?",
+      "option_a": "Big family dinner",
+      "option_b": "Small friends' dinner"
+    },
+    {
+      "id": 88,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather always win at games against your friends or always make your friends laugh?",
+      "option_a": "Always win",
+      "option_b": "Always make them laugh"
+    },
+    {
+      "id": 89,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a friend who is an amazing listener or an amazing storyteller?",
+      "option_a": "Amazing listener",
+      "option_b": "Amazing storyteller"
+    },
+    {
+      "id": 90,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather celebrate your birthday with a huge party or a small group?",
+      "option_a": "Huge party",
+      "option_b": "Small group"
+    },
+    {
+      "id": 91,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather cook with your family or play games with your family?",
+      "option_a": "Cook together",
+      "option_b": "Play games together"
+    },
+    {
+      "id": 92,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a weekly family outing or a weekly friends' outing?",
+      "option_a": "Family outing",
+      "option_b": "Friends' outing"
+    },
+    {
+      "id": 93,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather be known as the helpful friend or the funny friend?",
+      "option_a": "Helpful friend",
+      "option_b": "Funny friend"
+    },
+    {
+      "id": 94,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather organize a surprise for someone or receive a surprise yourself?",
+      "option_a": "Organize the surprise",
+      "option_b": "Receive the surprise"
+    },
+    {
+      "id": 95,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a family pet or a family game room?",
+      "option_a": "Family pet",
+      "option_b": "Game room"
+    },
+    {
+      "id": 96,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather spend a rainy day talking with friends or playing games with them?",
+      "option_a": "Talking",
+      "option_b": "Playing games"
+    },
+    {
+      "id": 97,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather share your favorite hobby with your family or teach it to a friend?",
+      "option_a": "Share with family",
+      "option_b": "Teach a friend"
+    },
+    {
+      "id": 98,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a friend who is great at giving advice or great at cheering you up?",
+      "option_a": "Great advice",
+      "option_b": "Great at cheering me up"
+    },
+    {
+      "id": 99,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather have a long conversation or a short conversation full of jokes?",
+      "option_a": "Long conversation",
+      "option_b": "Short funny conversation"
+    },
+    {
+      "id": 100,
+      "category": "friends_family",
+      "age_group": "all_ages",
+      "question": "Would you rather take a group photo or record a group video?",
+      "option_a": "Group photo",
+      "option_b": "Group video"
+    },
+    {
+      "id": 101,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather be extremely organized or extremely creative?",
+      "option_a": "Extremely organized",
+      "option_b": "Extremely creative"
+    },
+    {
+      "id": 102,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather wake up early every day or stay up late every day?",
+      "option_a": "Wake up early",
+      "option_b": "Stay up late"
+    },
+    {
+      "id": 103,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have a quiet home or a lively home?",
+      "option_a": "Quiet home",
+      "option_b": "Lively home"
+    },
+    {
+      "id": 104,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather spend a free afternoon reading or watching something?",
+      "option_a": "Reading",
+      "option_b": "Watching something"
+    },
+    {
+      "id": 105,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather be excellent at planning or excellent at improvising?",
+      "option_a": "Planning",
+      "option_b": "Improvising"
+    },
+    {
+      "id": 106,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have a four-day weekend every week or one extra hour every day?",
+      "option_a": "Four-day weekend",
+      "option_b": "One extra hour daily"
+    },
+    {
+      "id": 107,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather always have a clean desk or a clean closet?",
+      "option_a": "Clean desk",
+      "option_b": "Clean closet"
+    },
+    {
+      "id": 108,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather spend your free time learning or relaxing?",
+      "option_a": "Learning",
+      "option_b": "Relaxing"
+    },
+    {
+      "id": 109,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather be very patient or very energetic?",
+      "option_a": "Very patient",
+      "option_b": "Very energetic"
+    },
+    {
+      "id": 110,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have unlimited free books or unlimited free movie tickets?",
+      "option_a": "Free books",
+      "option_b": "Free movie tickets"
+    },
+    {
+      "id": 111,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather always know what to say or always know what to do?",
+      "option_a": "Know what to say",
+      "option_b": "Know what to do"
+    },
+    {
+      "id": 112,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have a very simple routine or a different routine every day?",
+      "option_a": "Simple routine",
+      "option_b": "Different routine"
+    },
+    {
+      "id": 113,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather be famous for your talent or for your kindness?",
+      "option_a": "Famous for talent",
+      "option_b": "Famous for kindness"
+    },
+    {
+      "id": 114,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have more free time or more energy?",
+      "option_a": "More free time",
+      "option_b": "More energy"
+    },
+    {
+      "id": 115,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather always have perfect weather or always have the perfect amount of sleep?",
+      "option_a": "Perfect weather",
+      "option_b": "Perfect sleep"
+    },
+    {
+      "id": 116,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather be able to learn a new skill instantly or improve any skill by practicing for one hour?",
+      "option_a": "Learn instantly",
+      "option_b": "Improve after one hour"
+    },
+    {
+      "id": 117,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have a home library or a home theater?",
+      "option_a": "Home library",
+      "option_b": "Home theater"
+    },
+    {
+      "id": 118,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather always have your favorite weather or your favorite season?",
+      "option_a": "Favorite weather",
+      "option_b": "Favorite season"
+    },
+    {
+      "id": 119,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather be known for being brave or being wise?",
+      "option_a": "Brave",
+      "option_b": "Wise"
+    },
+    {
+      "id": 120,
+      "category": "lifestyle_personality",
+      "age_group": "all_ages",
+      "question": "Would you rather have one amazing talent or be pretty good at many different things?",
+      "option_a": "One amazing talent",
+      "option_b": "Pretty good at many things"
+    }
+  ]
+}
