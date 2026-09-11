@@ -28,75 +28,80 @@
 <meta property="og:image" content="https://darenest.com/images/og-image.png">
 <meta property="og:image:alt" content="DareNest online party games">
 
+<link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+<!-- GOOGLE SEARCH CONSOLE VERIFICATION: add the token supplied by Google after deployment. -->
+
 <style>
-body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    line-height: 1.6;
-    color: #222;
+/* DareNest Games page: restore the card-based theme without affecting other pages. */
+.dn-categories-page .hero.content-page{margin-bottom:18px}
+.dn-categories-page .dn-category-grid{
+  width:min(1100px, calc(100% - 28px));
+  margin:24px auto 50px;
+  display:grid !important;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  text-align:left;
 }
-
-h1, h2 {
-    line-height: 1.25;
+.dn-categories-page .dn-category-grid .card{
+  display:block;
+  width:auto !important;
+  max-width:none !important;
+  min-width:0;
+  margin:0 !important;
+  padding:24px !important;
+  box-sizing:border-box;
+  background:#1e293b !important;
+  color:#f8fafc !important;
+  border:1px solid rgba(148,163,184,.18);
+  border-radius:20px;
+  text-decoration:none !important;
+  box-shadow:0 12px 28px rgba(0,0,0,.22);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
-
-.hero {
-    text-align: center;
-    padding: 30px 10px;
+.dn-categories-page .dn-category-grid .card:visited{color:#f8fafc !important}
+.dn-categories-page .dn-category-grid .card:hover,
+.dn-categories-page .dn-category-grid .card:focus-visible{
+  color:#fff !important;
+  transform:translateY(-2px);
+  border-color:rgba(139,92,246,.65);
+  box-shadow:0 16px 32px rgba(0,0,0,.28);
 }
-
-.categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 18px;
-    margin-top: 30px;
+.dn-categories-page .dn-category-grid .card h2{
+  margin:0 0 10px;
+  color:#f8fafc !important;
+  font-size:1.22rem;
+  line-height:1.3;
 }
-
-.card {
-    display: block;
-    padding: 22px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    text-decoration: none;
-    color: #222;
-    background: #fff;
+.dn-categories-page .dn-category-grid .card p{
+  margin:0;
+  color:#cbd5e1 !important;
+  line-height:1.55;
 }
-
-.card:hover {
-    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-}
-
-.card h2 {
-    margin-top: 0;
-}
-
-.cta {
-    display: inline-block;
-    padding: 12px 22px;
-    margin: 15px 0 25px;
-    background: #ff5a5f;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-.back {
-    margin-top: 40px;
-    text-align: center;
+.dn-categories-page .dn-category-grid .card:focus-visible{outline:3px solid #8b5cf6;outline-offset:3px}
+@media(max-width:700px){
+  .dn-categories-page .dn-category-grid{grid-template-columns:1fr;gap:14px}
+  .dn-categories-page .dn-category-grid .card{padding:20px !important}
 }
 </style>
-
-<!-- GOOGLE SEARCH CONSOLE VERIFICATION: add the token supplied by Google after deployment. -->
 </head>
 
-<body>
+<body class="dn-categories-page">
+<header>
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="logo">🎲 <strong>DareNest</strong></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-<div class="hero">
+
+<section class="hero content-page">
     <h1>Truth or Dare Questions</h1>
 
     <p>
@@ -105,12 +110,12 @@ h1, h2 {
     </p>
 
     <a class="cta" href="index.html">🎮 Play Truth or Dare Now</a>
-</div>
+</section>
 
-<section>
+<section class="content-section">
 <h2>Choose Your Category</h2>
 
-<div class="categories">
+<div class="categories dn-category-grid">
 
 <a class="card" href="index.html">
 <h2>All Truth or Dare Questions</h2>
@@ -233,6 +238,18 @@ h1, h2 {
 <p>Fun summer questions for vacations, parties and gatherings.</p>
 </a>
 
+<a class="card" href="two-truths-and-a-lie.html"><h2>🎭 Two Truths &amp; a Lie</h2><p>Read three statements and guess which one is the lie.</p></a>
+
+<a class="card" href="spin-the-wheel.html">
+<h2>🎡 Spin the Wheel</h2>
+<p>Spin for a random Truth, Dare or party challenge and keep the game moving.</p>
+</a>
+
+<a class="card" href="random-group-generator.html">
+<h2>👥 Random Group Generator</h2>
+<p>Enter names and instantly split people into random groups for parties, office activities and events.</p>
+</a>
+
 <a class="card" href="would-you-rather-questions.html">
 <h2>Would You Rather Questions</h2>
 <p>Fun and entertaining Would You Rather questions for groups.</p>
@@ -245,7 +262,7 @@ h1, h2 {
 </div>
 </section>
 
-<section>
+<section class="content-section">
 <h2>Play Truth or Dare Online</h2>
 
 <p>
@@ -262,6 +279,20 @@ a party group, DareNest has questions for different situations.
 <div class="back">
 <a href="index.html">← Back to DareNest</a>
 </div>
+
+<section class="content-section">
+<h2>More Truth or Dare Collections</h2>
+<ul>
+<li><a href="truth-or-dare-questions.html">Truth or Dare Questions</a></li>
+<li><a href="adults-truth-or-dare.html">Truth or Dare for Adults</a></li>
+</ul>
+</section>
+
+
+<footer>
+<p>© 2026 DareNest.com • Truth. Dare. Laugh. Repeat.</p>
+<p><a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a></p>
+</footer>
 
 </body>
 </html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spin the Wheel - Random Truth or Dare Challenges | DareNest</title>
+<meta name="description" content="Spin the DareNest wheel to get a random Truth, Dare or party challenge. Choose a group and age, then spin and play instantly.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://darenest.com/spin-the-wheel.html">
+<meta property="og:title" content="Spin the Wheel - Random Party Challenges | DareNest">
+<meta property="og:description" content="Spin the wheel for a random Truth, Dare or party challenge. Free to play on phone or desktop.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://darenest.com/spin-the-wheel.html">
+<meta property="og:image" content="https://darenest.com/images/og-image.png">
+<meta property="og:image:alt" content="DareNest online party games">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-89MMTSRPZ7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-89MMTSRPZ7');</script>
+</head>
+<body>
+<header>
+<nav class="navbar" aria-label="Main navigation">
+<div class="logo">🎲 <strong>DareNest</strong></div>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li><li><a href="categories.html">Games</a></li><li><a href="random-group-generator.html">Random Groups</a></li><li><a href="about.html">About</a></li>
+</ul>
+</nav>
+</header>
+<a class="standalone-change-game" href="categories.html" aria-label="Change Game">↻ Change Game</a>
+
+<section class="hero content-page dn-randomizer-page">
+<h1>🎡 Spin the Wheel</h1>
+<p>Spin for a random Truth, Dare or party challenge. Pick your group and age, then let the wheel decide.</p>
+<div class="randomizer-controls">
+<label>Playing with
+<select id="categorySelect"><option value="friends">👫 Friends</option><option value="couples">❤️ Couples</option><option value="family">👨‍👩‍👧 Family</option><option value="office">💼 Office</option><option value="party">🎉 Party</option></select>
+</label>
+<label>Age group
+<select id="ageSelect"><option value="all">All Ages</option><option value="kids">Kids</option><option value="teens">Teens</option><option value="adults">Adults</option></select>
+</label>
+</div>
+</section>
+
+<main class="randomizer-main">
+<section class="wheel-card" aria-labelledby="wheelTitle">
+<h2 id="wheelTitle">🎡 Ready? Spin!</h2>
+<div class="wheel-wrap">
+<div class="wheel-pointer" aria-hidden="true">▼</div>
+<canvas id="wheelCanvas" width="520" height="520" aria-label="Interactive random challenge wheel"></canvas>
+</div>
+<button id="spinBtn" class="randomizer-primary" type="button">🎡 SPIN THE WHEEL</button>
+<p id="wheelStatus" class="randomizer-status" aria-live="polite">Choose your group and spin.</p>
+</section>
+
+<section class="randomizer-result" id="resultCard" aria-live="polite">
+<div class="result-label">YOUR CHALLENGE</div>
+<div id="challengeType" class="result-type">🎲 READY</div>
+<div id="challengeText" class="result-text">Your random challenge will appear here.</div>
+<div class="result-actions">
+<button id="spinAgainBtn" type="button">🔄 Spin Again</button>
+<button id="shareBtn" type="button">📤 Share</button>
+</div>
+</section>
+</main>
+
+<section class="seo-content content-section">
+<h2>How Spin the Wheel Works</h2>
+<ol>
+<li>Choose who you are playing with and the age group.</li>
+<li>DareNest loads matching questions and challenges from its game collection.</li>
+<li>Tap <strong>Spin the Wheel</strong> and watch the wheel animate.</li>
+<li>The wheel stops on a random position and reveals your challenge.</li>
+<li>Tap Spin Again whenever you want another challenge.</li>
+</ol>
+<p>The wheel works directly in your browser and is designed for phones, tablets and computers.</p>
+</section>
+
+<section class="category-links content-section">
+<h2>More Random Fun</h2>
+<p><a href="random-group-generator.html">👥 Make Random Groups</a> · <a href="truth-or-dare-questions.html">Truth or Dare Questions</a> · <a href="would-you-rather-questions.html">Would You Rather</a> · <a href="this-or-that-questions.html">This or That</a></p>
+</section>
+
+<div class="back"><a href="categories.html">← Back to DareNest Games</a></div>
+<footer><p>© 2026 DareNest.com • Truth. Dare. Laugh. Repeat.</p><p><a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a></p></footer>
+
+<style>
+.dn-randomizer-page{padding-bottom:20px}.change-game-wrap{margin:0 auto 14px;max-width:1000px;text-align:left}.randomizer-controls{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:28px}.randomizer-controls label{display:flex;align-items:center;gap:8px;color:#cbd5e1;font-size:16px}.randomizer-controls select{background:#1e293b;color:#fff;border:1px solid #475569;border-radius:12px;padding:12px 14px;font:inherit}.randomizer-main{width:calc(100% - 28px);max-width:1000px;margin:0 auto}.wheel-card,.randomizer-result{background:rgba(30,41,59,.82);border-radius:24px;padding:28px;text-align:center;box-shadow:0 14px 35px rgba(0,0,0,.22);margin:24px auto}.wheel-card h2{margin-bottom:10px}.wheel-wrap{position:relative;width:min(88vw,520px);aspect-ratio:1;margin:10px auto 8px}.wheel-wrap canvas{width:100%;height:100%;display:block}.wheel-pointer{position:absolute;z-index:2;top:-4px;left:50%;transform:translateX(-50%);font-size:38px;line-height:1;color:#f8fafc;text-shadow:0 2px 6px rgba(0,0,0,.4)}.randomizer-primary{background:#38bdf8;color:#082f49;min-width:260px}.randomizer-primary:disabled{opacity:.55;cursor:not-allowed;transform:none}.randomizer-status{min-height:24px;color:#cbd5e1;margin-top:8px}.randomizer-result{max-width:850px}.result-label{font-size:13px;letter-spacing:2px;color:#94a3b8}.result-type{font-weight:700;font-size:18px;margin:8px 0}.result-text{font-size:28px;line-height:1.5;min-height:84px;display:flex;align-items:center;justify-content:center}.result-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.result-actions button{font-size:16px;padding:12px 22px}.result-actions button:disabled{opacity:.5;cursor:not-allowed;transform:none}@media(max-width:600px){.wheel-card,.randomizer-result{padding:20px}.randomizer-primary{width:100%;max-width:320px}.result-text{font-size:22px}.randomizer-controls label{width:100%;max-width:330px;justify-content:space-between}.randomizer-controls select{flex:1;min-width:0}}
+</style>
+<script>
+(function(){
+const canvas=document.getElementById('wheelCanvas'),ctx=canvas.getContext('2d'),spinBtn=document.getElementById('spinBtn'),againBtn=document.getElementById('spinAgainBtn'),category=document.getElementById('categorySelect'),age=document.getElementById('ageSelect'),status=document.getElementById('wheelStatus'),typeEl=document.getElementById('challengeType'),textEl=document.getElementById('challengeText'),shareBtn=document.getElementById('shareBtn');
+let questions=[],segments=[],rotation=0,spinning=false,current=null;
+const map={friends:['friends','best_friends','friends_us','friends_family'],couples:['couples','romantic_couples','couples_us'],family:['family','kids_family','siblings','friends_family'],office:['office'],party:['party','birthday','holiday']};
+function pool(){const cats=map[category.value]||[];return questions.filter(q=>q&&['truth','dare','would_you_rather','this_or_that','most_likely_to','never_have_i_ever'].includes(q.type)&&cats.includes(q.category)&&(age.value==='all'||(Array.isArray(q.ageGroup)&&q.ageGroup.includes(age.value))));}
+function shortLabel(q,i){return String(i+1);}
+function draw(){const n=12,c=canvas.width/2,r=canvas.width/2-10,step=Math.PI*2/n;ctx.clearRect(0,0,canvas.width,canvas.height);ctx.save();ctx.translate(c,c);ctx.rotate(rotation);for(let i=0;i<n;i++){const a=-Math.PI/2+i*step;ctx.beginPath();ctx.moveTo(0,0);ctx.arc(0,0,r,a,a+step);ctx.closePath();ctx.fillStyle=i%2?'#334155':'#475569';ctx.fill();ctx.strokeStyle='#0f172a';ctx.lineWidth=3;ctx.stroke();ctx.save();ctx.rotate(a+step/2);ctx.fillStyle='#f8fafc';ctx.font='700 28px Poppins,Arial,sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(shortLabel(segments[i],i),r*.73,0);ctx.restore();}ctx.beginPath();ctx.arc(0,0,58,0,Math.PI*2);ctx.fillStyle='#0f172a';ctx.fill();ctx.strokeStyle='#94a3b8';ctx.lineWidth=4;ctx.stroke();ctx.fillStyle='#f8fafc';ctx.font='700 15px Poppins,Arial,sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('READY',0,0);ctx.restore();}
+function refill(){const p=pool();if(!p.length){segments=[];draw();spinBtn.disabled=true;status.textContent='No matching challenges found for this selection.';return;}spinBtn.disabled=false;segments=[];const copy=p.slice().sort(()=>Math.random()-.5);for(let i=0;i<12;i++)segments.push(copy[i%copy.length]);draw();status.textContent='Ready to spin.';}
+function setResult(q){current=q;if(!q){typeEl.textContent='🎲 READY';textEl.textContent='Your random challenge will appear here.';againBtn.disabled=true;shareBtn.disabled=true;return;}const labels={truth:'🎯 TRUTH',dare:'🔥 DARE',would_you_rather:'🤔 WOULD YOU RATHER',this_or_that:'⚡ THIS OR THAT',most_likely_to:'👀 MOST LIKELY TO',never_have_i_ever:'🙈 NEVER HAVE I EVER'};typeEl.textContent=labels[q.type]||'🎲 CHALLENGE';textEl.textContent=q.type==='would_you_rather'||q.type==='this_or_that'?q.question+' '+q.optionA+' OR '+q.optionB:q.question;againBtn.disabled=false;shareBtn.disabled=false;}
+function scrollSmooth(el){if(!el)return;el.scrollIntoView({behavior:'smooth',block:'center'});}
+function spin(){if(spinning||!segments.length)return;scrollSmooth(spinBtn.closest('.wheel-card'));spinning=true;spinBtn.disabled=true;againBtn.disabled=true;shareBtn.disabled=true;status.textContent='Spinning...';const idx=Math.floor(Math.random()*segments.length);const step=Math.PI*2/12;const currentNorm=((rotation%(Math.PI*2))+Math.PI*2)%(Math.PI*2);const targetNorm=((-(idx+.5)*step)%(Math.PI*2)+Math.PI*2)%(Math.PI*2);let delta=(targetNorm-currentNorm+Math.PI*2)%(Math.PI*2);delta+=Math.PI*2*(5+Math.floor(Math.random()*3));const start=rotation,end=rotation+delta,duration=3900,startTime=performance.now();function frame(now){const t=Math.min(1,(now-startTime)/duration),ease=1-Math.pow(1-t,4);rotation=start+(end-start)*ease;draw();if(t<1){requestAnimationFrame(frame);}else{rotation=end;draw();spinning=false;setResult(segments[idx]);status.textContent='🎉 The wheel chose your challenge!';spinBtn.disabled=false;againBtn.disabled=false;scrollSmooth(document.getElementById('resultCard'));}}requestAnimationFrame(frame);}
+spinBtn.addEventListener('click',spin);againBtn.addEventListener('click',spin);category.addEventListener('change',()=>{setResult(null);rotation=0;refill();});age.addEventListener('change',()=>{setResult(null);rotation=0;refill();});shareBtn.addEventListener('click',async()=>{if(!current)return;const text='🎲 DareNest\n\n'+(current.question||'')+'\n\nPlay: https://darenest.com/spin-the-wheel.html';if(navigator.share){try{await navigator.share({title:'DareNest Spin the Wheel',text});return;}catch(e){if(e&&e.name==='AbortError')return;}}if(navigator.clipboard&&window.isSecureContext){try{await navigator.clipboard.writeText(text);status.textContent='✓ Challenge copied';return;}catch(e){}}status.textContent='Select and copy the challenge text manually.';});
+fetch('data/questions_v2.json').then(r=>{if(!r.ok)throw new Error();return r.json();}).then(data=>{questions=Array.isArray(data)?data:data.questions||[];refill();}).catch(()=>{status.textContent='Questions could not be loaded. Please refresh the page.';spinBtn.disabled=true;});
+})();
+</script>
+</body>
+</html>

@@ -167,7 +167,7 @@ function renderChoiceQuestion(question, label) {
             button.setAttribute("aria-pressed", "true");
 
             if (message) {
-                message.textContent = `✓ You chose: ${button.textContent.trim()}`;
+                message.textContent = `You chose: "${button.textContent.trim()}"`;
             }
         });
     });
@@ -664,11 +664,14 @@ function randomThisOrThat(){
             <button class="wyr-option" type="button">${q.optionA}</button>
             <span class="wyr-or">OR</span>
             <button class="wyr-option" type="button">${q.optionB}</button>
-          </div>`;
+          </div>
+          <div class="choice-selected-message" aria-live="polite"></div>`;
         result.querySelectorAll(".wyr-option").forEach(button=>{
             button.addEventListener("click",()=>{
                 result.querySelectorAll(".wyr-option").forEach(o=>o.classList.remove("selected"));
                 button.classList.add("selected");
+                const choiceMessage = result.querySelector(".choice-selected-message");
+                if (choiceMessage) choiceMessage.textContent = `You chose: "${button.textContent.trim()}"`;
             });
         });
     } else {

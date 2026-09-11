@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Group Generator - Make Random Teams | DareNest</title>
+<meta name="description" content="Enter names and instantly make random groups or teams for office activities, parties, college games and family events. Free random group generator by DareNest.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://darenest.com/random-group-generator.html">
+<meta property="og:title" content="Random Group Generator - Make Random Teams | DareNest">
+<meta property="og:description" content="Enter names and instantly create fair random groups for parties, office activities, college games and team events.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://darenest.com/random-group-generator.html">
+<meta property="og:image" content="https://darenest.com/images/og-image.png">
+<meta property="og:image:alt" content="DareNest online party games">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-89MMTSRPZ7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-89MMTSRPZ7');</script>
+</head>
+<body>
+<header><nav class="navbar" aria-label="Main navigation"><div class="logo">🎲 <strong>DareNest</strong></div><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="categories.html">Games</a></li><li><a href="spin-the-wheel.html">Spin the Wheel</a></li><li><a href="about.html">About</a></li></ul></nav></header>
+<a class="standalone-change-game" href="categories.html" aria-label="Change Game">↻ Change Game</a>
+
+<section class="hero content-page group-page">
+<h1>👥 Random Group Generator</h1>
+<p>Have a group of people and need random teams? Enter the names, choose the number of groups, and let DareNest do the sorting.</p>
+</section>
+
+<main class="group-main">
+<section class="group-card">
+<h2>1. Enter Names</h2>
+<p class="helper">One name per line. Names stay in your browser and are not uploaded by this page.</p>
+<textarea id="namesInput" rows="10" placeholder="Rahul
+Priya
+Amit
+Neha
+John
+Sarah"></textarea>
+<div class="count-row"><span id="nameCount">0 people</span><button id="clearBtn" type="button">Clear</button></div>
+
+<h2>2. Choose Groups</h2>
+<div class="group-options">
+<label>Number of groups
+<select id="groupCount"></select>
+</label>
+</div>
+<button id="makeGroupsBtn" class="group-primary" type="button">🎲 MAKE RANDOM GROUPS</button>
+<p id="groupStatus" class="randomizer-status" aria-live="polite">Add at least 2 names to begin.</p>
+</section>
+
+<section class="groups-result" id="groupsResult" aria-live="polite">
+<h2>3. Your Random Groups</h2>
+<div id="groupsOutput" class="groups-output"><p class="empty-groups">Your groups will appear here.</p></div>
+<div class="group-actions"><button id="shuffleBtn" type="button" disabled>🔄 Shuffle Again</button><button id="copyBtn" type="button" disabled>📋 Copy Groups</button><button id="shareBtn" type="button" disabled>📤 Share</button></div>
+</section>
+</main>
+
+<section class="seo-content content-section">
+<h2>Why Use a Random Group Generator?</h2>
+<p>Making random teams by hand can be awkward when everyone is standing around waiting. DareNest quickly distributes names into groups so you can start your office activity, party game, college event or family activity.</p>
+<h2>How It Works</h2>
+<ol><li>Enter each person's name on a separate line.</li><li>Choose how many groups you want.</li><li>Tap <strong>Make Random Groups</strong>.</li><li>Use Shuffle Again if you want a different arrangement.</li></ol>
+<p>If the number of people does not divide evenly, DareNest distributes the extra people across the first groups so the group sizes differ by no more than one.</p>
+</section>
+
+<section class="category-links content-section"><h2>More DareNest Randomizers</h2><p><a href="spin-the-wheel.html">🎡 Spin the Wheel</a> · <a href="truth-or-dare-questions.html">Truth or Dare Questions</a> · <a href="would-you-rather-questions.html">Would You Rather</a> · <a href="this-or-that-questions.html">This or That</a></p></section>
+<div class="back"><a href="categories.html">← Back to DareNest Games</a></div>
+<footer><p>© 2026 DareNest.com • Truth. Dare. Laugh. Repeat.</p><p><a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a></p></footer>
+
+<style>
+.group-page{padding-bottom:20px}.change-game-wrap{margin:0 auto 14px;max-width:900px;text-align:left}.group-main{width:calc(100% - 28px);max-width:900px;margin:0 auto}.group-card,.groups-result{background:rgba(30,41,59,.82);border-radius:24px;padding:28px;margin:24px auto;box-shadow:0 14px 35px rgba(0,0,0,.22)}.group-card h2,.groups-result h2{margin-bottom:10px}.helper{color:#cbd5e1;margin-bottom:12px}.group-card textarea{display:block;width:100%;resize:vertical;min-height:220px;background:#0f172a;color:#f8fafc;border:1px solid #475569;border-radius:14px;padding:16px;font:16px/1.55 Poppins,Arial,sans-serif}.count-row{display:flex;justify-content:space-between;align-items:center;color:#94a3b8;margin:8px 0 22px}.count-row button,.group-actions button{font-size:15px;padding:10px 18px}.group-options{margin:18px 0}.group-options label{display:flex;align-items:center;justify-content:space-between;gap:14px;color:#cbd5e1;max-width:420px}.group-options select{background:#1e293b;color:#fff;border:1px solid #475569;border-radius:12px;padding:12px 14px;font:inherit}.group-primary{display:block;margin:20px auto 10px;background:#38bdf8;color:#082f49}.group-primary:disabled,.group-actions button:disabled{opacity:.5;cursor:not-allowed;transform:none}.groups-output{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}.group-box{background:#0f172a;border:1px solid #475569;border-radius:16px;padding:18px}.group-box h3{margin-bottom:10px}.group-box ol{padding-left:24px;color:#e2e8f0;line-height:1.7}.empty-groups{text-align:center;color:#94a3b8;padding:25px}.group-actions{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:20px}.group-actions button{background:#334155;color:#f8fafc}.randomizer-status{text-align:center;min-height:24px;color:#cbd5e1}@media(max-width:600px){.group-card,.groups-result{padding:20px}.group-options label{align-items:stretch;flex-direction:column}.group-options select{width:100%}.group-primary{width:100%;max-width:330px}.group-box{min-width:0}}
+</style>
+<script>
+(function(){
+const input=document.getElementById('namesInput'); input.setAttribute('placeholder','Rahul\nPriya\nAmit\nNeha\nJohn\nSarah');
+const count=document.getElementById('nameCount'),groupCount=document.getElementById('groupCount'),makeBtn=document.getElementById('makeGroupsBtn'),shuffleBtn=document.getElementById('shuffleBtn'),copyBtn=document.getElementById('copyBtn'),shareBtn=document.getElementById('shareBtn'),clearBtn=document.getElementById('clearBtn'),output=document.getElementById('groupsOutput'),status=document.getElementById('groupStatus');
+let names=[],groups=[];
+function readNames(){const raw=input.value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);const unique=[];const seen=new Set();raw.forEach(name=>{const key=name.toLowerCase();if(!seen.has(key)){seen.add(key);unique.push(name);}});names=unique;count.textContent=names.length+' '+(names.length===1?'person':'people');updateOptions();makeBtn.disabled=names.length<2;status.textContent=names.length<2?'Add at least 2 names to begin.':names.length+' people ready.';}
+function updateOptions(){const previous=Number(groupCount.value)||2;groupCount.innerHTML='';const max=Math.min(20,names.length);for(let i=2;i<=max;i++){const o=document.createElement('option');o.value=i;o.textContent=i+(i===1?' group':' groups');groupCount.appendChild(o);}if(max>=2)groupCount.value=String(Math.min(previous,max));}
+function shuffleArray(arr){const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function buildGroups(){if(names.length<2)return;const n=Math.min(Math.max(2,Number(groupCount.value)||2),names.length);const shuffled=shuffleArray(names),base=Math.floor(shuffled.length/n),extra=shuffled.length%n;groups=Array.from({length:n},()=>[]);let index=0;for(let i=0;i<n;i++){const size=base+(i<extra?1:0);groups[i]=shuffled.slice(index,index+size);index+=size;}render();status.textContent='🎉 Groups created randomly.';shuffleBtn.disabled=false;copyBtn.disabled=false;shareBtn.disabled=false;}
+function render(){output.innerHTML='';groups.forEach((group,i)=>{const box=document.createElement('article');box.className='group-box';const h=document.createElement('h3');h.textContent='Group '+(i+1);box.appendChild(h);const ol=document.createElement('ol');group.forEach(name=>{const li=document.createElement('li');li.textContent=name;ol.appendChild(li);});box.appendChild(ol);output.appendChild(box);});}
+function groupText(){return groups.map((g,i)=>'Group '+(i+1)+'\n'+g.map((n,j)=>(j+1)+'. '+n).join('\n')).join('\n\n');}
+async function copy(){if(!groups.length)return;const text=groupText();if(navigator.clipboard&&window.isSecureContext){try{await navigator.clipboard.writeText(text);status.textContent='✓ Groups copied to clipboard.';return;}catch(e){}}const area=document.createElement('textarea');area.value=text;document.body.appendChild(area);area.select();try{document.execCommand('copy');status.textContent='✓ Groups copied to clipboard.';}catch(e){status.textContent='Copy is not available in this browser.';}area.remove();}
+async function share(){if(!groups.length)return;const text='🎲 DareNest Random Groups\n\n'+groupText()+'\n\nCreate groups: https://darenest.com/random-group-generator.html';if(navigator.share){try{await navigator.share({title:'DareNest Random Groups',text});return;}catch(e){if(e&&e.name==='AbortError')return;}}await copy();}
+input.addEventListener('input',readNames);groupCount.addEventListener('change',()=>{if(groups.length)buildGroups();});makeBtn.addEventListener('click',buildGroups);shuffleBtn.addEventListener('click',buildGroups);copyBtn.addEventListener('click',copy);shareBtn.addEventListener('click',share);clearBtn.addEventListener('click',()=>{input.value='';names=[];groups=[];output.innerHTML='<p class="empty-groups">Your groups will appear here.</p>';shuffleBtn.disabled=copyBtn.disabled=shareBtn.disabled=true;readNames();});readNames();
+})();
+</script>
+</body>
+</html>
